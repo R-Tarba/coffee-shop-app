@@ -1,0 +1,313 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Grind & Crumb Scenario Planner</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Public+Sans:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: sticky result strip on top; inputs left, live outputs right; stacks on phones. */
+:root{
+  --bg:#f3f7f5; --panel:#ffffff; --fg:#14231f; --mut:#5a6c66; --line:#d3dfda;
+  --acc:#0f7a5c; --acc-soft:#dcf0e8; --bad:#b3392f; --bad-soft:#f7e1de; --warn:#a96b00; --warn-soft:#fbefd2;
+  --good:#0f7a5c; --track:#e6eeea;
+  --sans:"Public Sans",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0e1815; --panel:#15231f; --fg:#e3efea; --mut:#9bb0a9; --line:#294039;
+  --acc:#3fc79d; --acc-soft:#173a2f; --bad:#ff8f84; --bad-soft:#3b1f1c; --warn:#f0b64a; --warn-soft:#3a2f12;
+  --good:#3fc79d; --track:#1e302a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0e1815; --panel:#15231f; --fg:#e3efea; --mut:#9bb0a9; --line:#294039;
+  --acc:#3fc79d; --acc-soft:#173a2f; --bad:#ff8f84; --bad-soft:#3b1f1c; --warn:#f0b64a; --warn-soft:#3a2f12;
+  --good:#3fc79d; --track:#1e302a; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:14px;line-height:1.4;
+  padding-block:16px 32px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:1180px;margin:0 auto;display:grid;gap:16px}
+header{display:flex;flex-wrap:wrap;gap:8px 24px;align-items:baseline;justify-content:space-between}
+h1{font-size:22px;margin:0;letter-spacing:-.01em;text-wrap:balance}
+.sub{color:var(--mut);font-size:13px}
+.presets{display:flex;flex-wrap:wrap;gap:8px}
+button{font:inherit;cursor:pointer;border:1px solid var(--line);background:var(--panel);color:var(--fg);padding:7px 12px;border-radius:6px;font-weight:600;font-size:13px}
+button:hover{border-color:var(--acc)}
+button[aria-pressed="true"]{background:var(--acc);border-color:var(--acc);color:#fff}
+button:focus-visible,input:focus-visible,summary:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+.hero{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px;display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));align-items:end}
+.kpi .l{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--mut);font-weight:600}
+.kpi .v{font-family:var(--mono);font-size:28px;font-weight:600;line-height:1.15;font-variant-numeric:tabular-nums}
+.kpi .d{font-size:12px;color:var(--mut)}
+.neg{color:var(--bad)} .pos{color:var(--good)}
+.main{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:16px;align-items:start}
+@media (max-width:860px){.main{grid-template-columns:minmax(0,1fr)}}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px;min-width:0}
+h2{font-size:12px;text-transform:uppercase;letter-spacing:.09em;color:var(--acc);margin:0 0 10px}
+.grp{display:grid;gap:12px;padding-bottom:14px;margin-bottom:14px;border-bottom:1px solid var(--line)}
+.grp:last-child{border:0;margin:0;padding:0}
+.grp h3{margin:0;font-size:13px}
+.grp .note{font-size:12px;color:var(--mut);margin-top:-6px}
+.ctl{display:grid;grid-template-columns:1fr auto;gap:2px 8px;align-items:center}
+.ctl label{font-size:13px}
+.ctl output{font-family:var(--mono);font-size:13px;font-weight:600;font-variant-numeric:tabular-nums}
+.ctl input[type=range]{grid-column:1/-1;width:100%;accent-color:var(--acc);margin:2px 0}
+.tg{display:flex;align-items:center;gap:8px;font-size:13px}
+.tg input{accent-color:var(--acc);width:16px;height:16px}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--mut);text-align:left;padding:4px 6px 6px;font-weight:600}
+td{padding:6px;border-top:1px solid var(--line)}
+th.r,td.r{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+tr.tot td{font-weight:700;border-top:2px solid var(--fg)}
+.tbl{overflow-x:auto}
+.bars{display:grid;gap:7px}
+.bar{display:grid;grid-template-columns:minmax(96px,34%) minmax(0,1fr) 58px;gap:8px;align-items:center;font-size:12.5px}
+.bar .nm{overflow-wrap:anywhere}
+.track{position:relative;height:16px;background:var(--track);border-radius:3px}
+.track .z{position:absolute;top:-2px;bottom:-2px;width:1px;background:var(--mut)}
+.track .f{position:absolute;top:2px;bottom:2px;border-radius:2px}
+.f.p{background:var(--acc)} .f.n{background:var(--bad)}
+.bar .val{font-family:var(--mono);font-weight:600;text-align:right;font-variant-numeric:tabular-nums}
+.alloc{display:flex;height:30px;border-radius:5px;overflow:hidden;background:var(--track);border:1px solid var(--line)}
+.seg{display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;color:#fff;white-space:nowrap;overflow:hidden;min-width:0}
+.s1{background:#0f7a5c}.s2{background:#2f6f9f}.s3{background:#b17a14}.sh{background:var(--track);color:var(--fg)}.sr{background:#6b7a75}
+:root[data-theme="dark"] .s1{background:#1f9a77}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;color:var(--mut);margin-top:8px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px}
+.gates{display:grid;gap:8px}
+.gate{display:grid;grid-template-columns:auto 1fr;gap:4px 10px;align-items:start;font-size:13px}
+.pill{font-family:var(--mono);font-size:11px;font-weight:700;padding:2px 8px;border-radius:99px;white-space:nowrap}
+.ok{background:var(--acc-soft);color:var(--acc)} .no{background:var(--bad-soft);color:var(--bad)} .wa{background:var(--warn-soft);color:var(--warn)}
+.banner{padding:10px 12px;border-radius:7px;font-size:13px;font-weight:600}
+details{font-size:12.5px;color:var(--mut)}
+summary{cursor:pointer;font-weight:600;color:var(--fg)}
+details ul{margin:8px 0 0;padding-left:18px;display:grid;gap:4px}
+@media (prefers-reduced-motion:no-preference){.f,.seg{transition:all .2s ease}}
+</style>
+
+<div class="wrap">
+<header>
+  <div>
+    <h1>Grind &amp; Crumb scenario planner</h1>
+    <div class="sub">Test the £1.5m recommendation. Every figure is annual store profit in £k unless stated, net of VAT, before head office and tax.</div>
+  </div>
+  <div class="presets" role="group" aria-label="Scenarios">
+    <button id="p-base" aria-pressed="true">Recommended plan</button>
+    <button id="p-stress" aria-pressed="false">Everything goes wrong</button>
+    <button id="p-hold" aria-pressed="false">Hold Kelham Island</button>
+  </div>
+</header>
+
+<section class="hero" aria-live="polite">
+  <div class="kpi"><div class="l">Run-rate store profit</div><div class="v" id="k-profit">–</div><div class="d" id="k-profit-d"></div></div>
+  <div class="kpi"><div class="l">Uplift vs baseline</div><div class="v" id="k-uplift">–</div><div class="d">Baseline £954k (Jan–Jun 2026 annualised, Dashly at 33%)</div></div>
+  <div class="kpi"><div class="l">One-off spend</div><div class="v" id="k-spend">–</div><div class="d" id="k-spend-d"></div></div>
+  <div class="kpi"><div class="l">Blended payback</div><div class="v" id="k-pay">–</div><div class="d" id="k-pay-d"></div></div>
+</section>
+<div class="banner" id="banner"></div>
+
+<div class="main">
+  <section class="card" aria-label="Assumptions">
+    <h2>Assumptions you can change</h2>
+
+    <div class="grp">
+      <h3>Manchester Piccadilly</h3>
+      <div class="ctl"><label for="rent">Monthly rent (£k, now 30.5)</label><output id="o-rent"></output><input type="range" id="rent" min="20" max="30.5" step="0.5" value="25"></div>
+      <div class="ctl"><label for="lunch">Lunch gap closed after +30 lunch hours</label><output id="o-lunch"></output><input type="range" id="lunch" min="0" max="100" step="5" value="70"></div>
+      <div class="note">Includes +50p wage (–£11.4k) and 30 extra lunch hours a week (–£23.8k).</div>
+    </div>
+
+    <div class="grp">
+      <h3>Delivery</h3>
+      <div class="ctl"><label for="fee">Small-order fee on orders under £8</label><output id="o-fee"></output><input type="range" id="fee" min="0" max="2.5" step="0.25" value="1.5"></div>
+      <div class="ctl"><label for="attr">Small orders lost after the fee</label><output id="o-attr"></output><input type="range" id="attr" min="0" max="40" step="1" value="10"></div>
+      <div class="ctl"><label for="dash">Dashly commission (now 33%)</label><output id="o-dash"></output><input type="range" id="dash" min="27" max="33" step="0.5" value="30"></div>
+      <div class="ctl"><label for="dlost">Dashly volume lost if talks sour</label><output id="o-dlost"></output><input type="range" id="dlost" min="0" max="40" step="1" value="0"></div>
+    </div>
+
+    <div class="grp">
+      <h3>App rebuild</h3>
+      <div class="ctl"><label for="app">Share of the ~£200k sales gap recovered</label><output id="o-app"></output><input type="range" id="app" min="0" max="100" step="5" value="60"></div>
+    </div>
+
+    <div class="grp">
+      <h3>Leeds Trinity closure</h3>
+      <label class="tg"><input type="checkbox" id="trin" checked> Close Trinity</label>
+      <div class="ctl"><label for="recap">Lost profit that returns to Briggate</label><output id="o-recap"></output><input type="range" id="recap" min="0" max="100" step="5" value="50"></div>
+      <div class="ctl"><label for="exit">Lease exit cost (£k, provisional)</label><output id="o-exit"></output><input type="range" id="exit" min="60" max="180" step="5" value="100"></div>
+    </div>
+
+    <div class="grp">
+      <h3>New stores</h3>
+      <label class="tg"><input type="checkbox" id="head" checked> Open Leeds Headingley</label>
+      <label class="tg"><input type="checkbox" id="kel" checked> Open Sheffield Kelham Island</label>
+      <div class="ctl"><label for="sales">Sales vs forecast</label><output id="o-sales"></output><input type="range" id="sales" min="50" max="110" step="5" value="100"></div>
+      <div class="ctl"><label for="cont">Fit-out contingency</label><output id="o-cont"></output><input type="range" id="cont" min="0" max="25" step="1" value="15"></div>
+    </div>
+
+    <div class="grp">
+      <h3>Oat-charge trial (6 months free)</h3>
+      <label class="tg"><input type="checkbox" id="oat" checked> Run the trial</label>
+      <div class="ctl"><label for="oatv">Extra visits won back (thousands)</label><output id="o-oatv"></output><input type="range" id="oatv" min="0" max="25" step="0.5" value="7.4"></div>
+    </div>
+  </section>
+
+  <div style="display:grid;gap:16px;min-width:0">
+    <section class="card">
+      <h2>Where the uplift comes from (£k a year)</h2>
+      <div class="bars" id="bars"></div>
+    </section>
+
+    <section class="card">
+      <h2>The £1.5m allocation (£k)</h2>
+      <div class="alloc" id="alloc" role="img" aria-label="Allocation of the £1.5m budget"></div>
+      <div class="legend">
+        <span><i class="s1"></i>Tranche 1 fixes</span><span><i class="s2"></i>Tranche 2 Leeds</span><span><i class="s3"></i>Tranche 3 Kelham</span><span><i style="background:var(--track);border:1px solid var(--line)"></i>Headroom</span><span><i class="sr"></i>Protected reserve</span>
+      </div>
+      <div class="tbl" style="margin-top:12px"><table>
+        <thead><tr><th>Tranche</th><th class="r">Spend</th><th class="r">Profit/yr</th><th class="r">Payback</th></tr></thead>
+        <tbody id="tr"></tbody>
+      </table></div>
+    </section>
+
+    <section class="card">
+      <h2>Gates before money is released</h2>
+      <div class="gates" id="gates"></div>
+    </section>
+
+    <section class="card">
+      <details>
+        <summary>How the model works and what is fixed</summary>
+        <ul>
+          <li>Built from the final report. At the recommended settings it reproduces the report: +£285k run-rate, £1,236.5k allocated, £13.5k headroom.</li>
+          <li>Piccadilly: rent saving × 12, less wage and hours cost, plus lunch recovery worth £42.1k at 100% gap closure.</li>
+          <li>Delivery fee: 45,880 small orders a year; the platform takes 30% of the fee; each lost order gives up £0.98 contribution.</li>
+          <li>Dashly: £699k run-rate order value × commission cut; each point of lost volume costs £1.96k.</li>
+          <li>App: £200k gap × recovery × 65% contribution, less £15k running cost.</li>
+          <li>Trinity: lost Trinity profit £70.8k; Briggate's lost profit pool £145.6k × recapture share.</li>
+          <li>New stores: Headingley £58.5k and Kelham £34.6k at forecast, each moving £2.06k per point of sales vs forecast.</li>
+          <li>Waste tracker (+£7k) and the £954k baseline are fixed. The oat trial is a one-off, so it sits in the budget and not in run-rate profit.</li>
+          <li>Planning model, not a forecast. Landlord, platform and lease terms are assumptions until signed.</li>
+        </ul>
+      </details>
+    </section>
+  </div>
+</div>
+</div>
+
+<script>
+(function(){
+  var BASE=954, BUDGET=1250, RESERVE=250;
+  var $=function(id){return document.getElementById(id)};
+  var ids=['rent','lunch','fee','attr','dash','dlost','app','recap','exit','sales','cont','oatv'];
+  var checks=['trin','head','kel','oat'];
+  var defaults={rent:25,lunch:70,fee:1.5,attr:10,dash:30,dlost:0,app:60,recap:50,exit:100,sales:100,cont:15,oatv:7.4,trin:1,head:1,kel:1,oat:1};
+  function fmt(n,d){d=d||0;return Number(n).toLocaleString('en-GB',{minimumFractionDigits:d,maximumFractionDigits:d})}
+  function sgn(n,d){return (n>=0?'+':'–')+fmt(Math.abs(n),d)}
+  function get(){
+    var s={};
+    ids.forEach(function(k){s[k]=parseFloat($(k).value)});
+    checks.forEach(function(k){s[k]=$(k).checked});
+    return s;
+  }
+  function model(s){
+    var l={};
+    l.picc=(30.5-s.rent)*12-11.4-23.8+42.14*(s.lunch/100);
+    var small=45880, kept=small*(1-s.attr/100);
+    l.fee= s.fee>0 ? (kept*s.fee*0.7-(small-kept)*0.977)/1000 : 0;
+    l.dash=(33-s.dash)/100*699 - s.dlost*1.96;
+    l.app=200*(s.app/100)*0.65-15;
+    l.waste=7;
+    l.trin= s.trin ? 145.6*(s.recap/100)-70.8 : 0;
+    var dev=s.sales-100;
+    l.head= s.head ? 58.5+2.06*dev : 0;
+    l.kel = s.kel ? 34.6+2.06*dev : 0;
+    var t1p=l.picc+l.fee+l.dash+l.app+l.waste, t2p=l.trin+l.head, t3p=l.kel;
+    var c=1+s.cont/100;
+    var t1=90+15+15+10+(s.oat?52:0)+18;
+    var t2=(s.head?320*c+60:0)+(s.trin?s.exit:0);
+    var t3=s.kel?390*c+60:0;
+    var total=t1+t2+t3;
+    var profit=t1p+t2p+t3p;
+    return {l:l,t:[{n:'1 · Fix the core',sp:t1,pr:t1p},{n:'2 · Reshape Leeds',sp:t2,pr:t2p},{n:'3 · Kelham Island',sp:t3,pr:t3p}],total:total,uplift:profit,head:BUDGET-total,
+      oatnet:s.oat?-(52-3.93*s.oatv):0};
+  }
+  function pay(sp,pr){ if(sp<=0)return '–'; if(pr<=0.05)return 'never'; return fmt(sp/pr,1)+' yrs'; }
+  function render(){
+    var s=get(), m=model(s);
+    // labels
+    $('o-rent').textContent='£'+fmt(s.rent,1)+'k';
+    $('o-lunch').textContent=fmt(s.lunch)+'%';
+    $('o-fee').textContent=s.fee>0?'£'+fmt(s.fee,2):'none';
+    $('o-attr').textContent=fmt(s.attr)+'%';
+    $('o-dash').textContent=fmt(s.dash,1)+'%';
+    $('o-dlost').textContent=fmt(s.dlost)+'%';
+    $('o-app').textContent=fmt(s.app)+'%';
+    $('o-recap').textContent=fmt(s.recap)+'%';
+    $('o-exit').textContent='£'+fmt(s.exit)+'k';
+    $('o-sales').textContent=fmt(s.sales)+'%';
+    $('o-cont').textContent=fmt(s.cont)+'%';
+    $('o-oatv').textContent=fmt(s.oatv,1)+'k';
+    // hero
+    var proj=BASE+m.uplift;
+    $('k-profit').textContent='£'+fmt(proj)+'k';
+    $('k-profit-d').textContent='Report plan: £1,239k. FY25/26 actual: £1,069k';
+    var u=$('k-uplift'); u.textContent=sgn(m.uplift)+'k'; u.className='v '+(m.uplift>=0?'pos':'neg');
+    $('k-spend-d').textContent='of £1,250k available; £250k reserve untouched';
+    $('k-spend').textContent='£'+fmt(m.total,1)+'k';
+    $('k-pay').textContent=pay(m.total,m.uplift);
+    $('k-pay-d').textContent=(m.uplift>=0?(fmt(m.uplift/BASE*100,0)+'% above baseline'):(fmt(-m.uplift/BASE*100,0)+'% below baseline'));
+    var b=$('banner');
+    if(m.head<0){b.className='banner no';b.textContent='Over budget by £'+fmt(-m.head,1)+'k. Hold Kelham Island, cut contingency, or draw on the reserve (not recommended).';}
+    else if(m.uplift<0){b.className='banner no';b.textContent='This scenario loses money against baseline. The expansion cannot be justified here.';}
+    else if(m.head<30){b.className='banner wa';b.textContent='Fits the budget with only £'+fmt(m.head,1)+'k headroom. Kelham Island is the swing item: holding it frees £'+fmt(m.head+m.t[2].sp,1)+'k.';}
+    else {b.className='banner ok';b.textContent='Fits the budget with £'+fmt(m.head,1)+'k headroom and the £250k reserve intact.';}
+    // bars
+    var items=[['Piccadilly turnaround',m.l.picc],['Delivery small-order fee',m.l.fee],['Dashly commission',m.l.dash],['App rebuild',m.l.app],['Waste tracker and cap',m.l.waste],['Close Leeds Trinity',m.l.trin],['Open Headingley',m.l.head],['Open Kelham Island',m.l.kel]];
+    var lo=0,hi=0;items.forEach(function(i){lo=Math.min(lo,i[1]);hi=Math.max(hi,i[1])});
+    lo=Math.min(lo,-10); hi=Math.max(hi,10);
+    var span=hi-lo, z=(-lo/span)*100, h='';
+    items.forEach(function(i){
+      var v=i[1], w=Math.abs(v)/span*100, left=v>=0?z:z-w;
+      h+='<div class="bar"><div class="nm">'+i[0]+'</div><div class="track"><div class="z" style="left:'+z+'%"></div><div class="f '+(v>=0?'p':'n')+'" style="left:'+left+'%;width:'+w+'%"></div></div><div class="val '+(v<0?'neg':'')+'">'+sgn(v)+'</div></div>';
+    });
+    $('bars').innerHTML=h;
+    // alloc bar
+    var tot=1500, segs=[['s1',m.t[0].sp,'T1'],['s2',m.t[1].sp,'T2'],['s3',m.t[2].sp,'T3'],['sh',Math.max(m.head,0),''],['sr',RESERVE,'Reserve']];
+    var ah='';
+    segs.forEach(function(g){var w=g[1]/tot*100; if(w<=0)return; ah+='<div class="seg '+g[0]+'" style="width:'+w+'%">'+(w>7?(g[2]?g[2]+' ':'')+fmt(g[1]):'')+'</div>'});
+    $('alloc').innerHTML=ah;
+    // table
+    var th='';
+    m.t.forEach(function(t){th+='<tr><td>'+t.n+'</td><td class="r">'+fmt(t.sp,1)+'</td><td class="r '+(t.pr<0?'neg':'')+'">'+sgn(t.pr,1)+'</td><td class="r">'+pay(t.sp,t.pr)+'</td></tr>'});
+    th+='<tr class="tot"><td>Allocated</td><td class="r">'+fmt(m.total,1)+'</td><td class="r">'+sgn(m.uplift,1)+'</td><td class="r">'+pay(m.total,m.uplift)+'</td></tr>';
+    th+='<tr><td>Headroom</td><td class="r '+(m.head<0?'neg':'')+'">'+fmt(m.head,1)+'</td><td></td><td></td></tr>';
+    th+='<tr><td>Protected reserve</td><td class="r">250</td><td></td><td></td></tr>';
+    $('tr').innerHTML=th;
+    // gates
+    var g1=s.rent<=25 && (!s.trin||s.exit<=100);
+    var g2=s.sales>=70;
+    var g3=s.oat? s.oatv>=13.3 : null;
+    function gate(n,pass,test,res,soft){return '<div class="gate"><span class="pill '+(pass===null||(soft&&!pass)?'wa':pass?'ok':'no')+'">'+(pass===null?'N/A':pass?'PASS':(soft?'BELOW':'FAIL'))+'</span><div><b>'+n+'</b> '+test+'<br><span style="color:var(--mut)">'+res+'</span></div></div>'}
+    $('gates').innerHTML=
+      gate('Gate 1 · Month 3',g1,'Piccadilly rent ≤ £25k and Trinity exit ≤ £100k.', g1?'Proceed with Trinity closure and Headingley.':'Sublet or exit Piccadilly; keep Trinity open (its Mar–Jun profit is rising).')+
+      gate('Gate 2 · Month 6',g2&&g1,'Headingley sales ≥ 70% of forecast.', (g2&&g1)?'Release Kelham Island (£'+fmt(m.t[2].sp||508.5,1)+'k).':'Hold Kelham and redeploy the money.')+
+      gate('Gate 3 · Month 6',g3,'Oat trial wins back ≥ 13.3k visits (about 6 per store per day).', g3===null?'No trial running.':(g3?'Keep the oat charge free.':'Net one-off cost £'+fmt(-m.oatnet,1)+'k. Restore the charge or cut it to 20p.'),true);
+  }
+  function setPreset(p){
+    var v={};
+    for(var k in defaults)v[k]=defaults[k];
+    if(p==='stress'){v.rent=30.5;v.dash=33;v.dlost=25;v.sales=85;v.app=40;v.recap=40}
+    if(p==='hold'){v.kel=0}
+    ids.forEach(function(k){$(k).value=v[k]});
+    checks.forEach(function(k){$(k).checked=!!v[k]});
+    ['base','stress','hold'].forEach(function(x){$('p-'+x).setAttribute('aria-pressed',x===p?'true':'false')});
+    render();
+  }
+  ids.concat(checks).forEach(function(k){$(k).addEventListener('input',function(){
+    ['base','stress','hold'].forEach(function(x){$('p-'+x).setAttribute('aria-pressed','false')});render()})});
+  $('p-base').onclick=function(){setPreset('base')};
+  $('p-stress').onclick=function(){setPreset('stress')};
+  $('p-hold').onclick=function(){setPreset('hold')};
+  setPreset('base');
+})();
+</script>
+
+</body></html>
