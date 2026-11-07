@@ -1,0 +1,7 @@
+promo_id,promo_name,mechanic,start_date,end_date,stores,category,marketing_spend_gbp
+PR01,Pastry BOGO,"Buy one pastry get one free, Mon-Thu 14:00-18:00",2025-09-22,2025-10-19,All,Bakery,4500
+PR02,Lunch Meal Deal,"Any sandwich/toastie/wrap + any regular drink + snack for £7.50, 11:00-14:00",2025-11-03,2026-01-25,S01;S05;S07;S08;S09;S11,Lunch,6000
+PR03,Festive Menu,"Gingerbread latte and mince pies, seasonal POS",2025-11-10,2026-01-05,All,Seasonal,8000
+PR04,App Double Stamps,Double loyalty stamps on app orders,2026-02-02,2026-02-28,All,All,3500
+PR05,Student 20% Off,20% off with valid student ID,2025-09-22,2026-06-30,S11,All,500
+PR06,Matcha Launch,"New matcha latte, social campaign",2026-02-01,2026-02-28,All,Tea & Other,7000

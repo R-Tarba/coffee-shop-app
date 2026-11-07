@@ -1,0 +1,116 @@
+response_id,leave_month,store_id,store_name,role,tenure_months,main_reason,comment,would_recommend_as_employer_10
+EX001,2025-08,S01,Sheffield Division Street,Team Leader,6,Career change,Starting an apprenticeship.,5
+EX002,2025-08,S01,Sheffield Division Street,Team Leader,8,Career change,Got a full time job in my field.,8
+EX003,2025-09,S01,Sheffield Division Street,Barista,24,Moving away / study,Finished my degree and moving home.,6
+EX004,2025-09,S01,Sheffield Division Street,Barista,12,Career change,Wanted something office based.,7
+EX005,2026-01,S01,Sheffield Division Street,Barista,9,Moving away / study,Moving cities for uni.,7
+EX006,2026-02,S01,Sheffield Division Street,Barista,6,Better pay elsewhere,Got 50p an hour more down the road.,9
+EX007,2026-03,S01,Sheffield Division Street,Team Leader,9,Workload / understaffing,"Lunch shifts were always short-staffed, it was exhausting.",7
+EX008,2026-03,S01,Sheffield Division Street,Barista,36,Career change,Starting an apprenticeship.,8
+EX009,2026-05,S01,Sheffield Division Street,Barista,25,Career change,Wanted something office based.,7
+EX010,2025-07,S02,Sheffield Station,Team Leader,14,Hours / rota,Rota came out late and changed a lot.,9
+EX011,2025-08,S02,Sheffield Station,Barista,16,Moving away / study,Relocating with family.,6
+EX012,2025-09,S02,Sheffield Station,Kitchen Assistant,4,Hours / rota,Rota came out late and changed a lot.,8
+EX013,2025-11,S02,Sheffield Station,Kitchen Assistant,11,Career change,Got a full time job in my field.,7
+EX014,2026-01,S02,Sheffield Station,Barista,19,Career change,Got a full time job in my field.,7
+EX015,2026-01,S02,Sheffield Station,Barista,33,Better pay elsewhere,Another chain offered more per hour.,7
+EX016,2026-02,S02,Sheffield Station,Barista,14,Moving away / study,Finished my degree and moving home.,5
+EX017,2026-02,S02,Sheffield Station,Kitchen Assistant,11,Hours / rota,Rota came out late and changed a lot.,7
+EX018,2026-06,S02,Sheffield Station,Barista,21,Moving away / study,Moving cities for uni.,7
+EX019,2025-12,S03,Leeds Briggate,Barista,15,Career change,Got a full time job in my field.,7
+EX020,2026-01,S03,Leeds Briggate,Barista,16,Career change,Wanted something office based.,7
+EX021,2026-03,S03,Leeds Briggate,Barista,27,Hours / rota,Couldn't get the hours I needed.,8
+EX022,2026-05,S03,Leeds Briggate,Barista,3,Better pay elsewhere,Got 50p an hour more down the road.,9
+EX023,2025-07,S04,York Stonegate,Kitchen Assistant,6,Moving away / study,Relocating with family.,6
+EX024,2025-09,S04,York Stonegate,Barista,34,Career change,Got a full time job in my field.,9
+EX025,2025-11,S04,York Stonegate,Barista,9,Career change,Got a full time job in my field.,9
+EX026,2026-01,S04,York Stonegate,Barista,7,Better pay elsewhere,Pay hasn't kept up with other places nearby.,6
+EX027,2026-01,S04,York Stonegate,Barista,3,Moving away / study,Relocating with family.,6
+EX028,2026-03,S04,York Stonegate,Barista,7,Moving away / study,Relocating with family.,6
+EX029,2025-08,S05,Manchester Northern Quarter,Team Leader,14,Career change,Got a full time job in my field.,6
+EX030,2025-09,S05,Manchester Northern Quarter,Barista,15,Workload / understaffing,Constant queues and angry customers because we were short.,8
+EX031,2025-09,S05,Manchester Northern Quarter,Barista,28,Workload / understaffing,"Lunch shifts were always short-staffed, it was exhausting.",7
+EX032,2025-09,S05,Manchester Northern Quarter,Barista,28,Career change,Got a full time job in my field.,9
+EX033,2025-11,S05,Manchester Northern Quarter,Barista,27,Moving away / study,Moving cities for uni.,9
+EX034,2025-11,S05,Manchester Northern Quarter,Barista,6,Better pay elsewhere,Pay hasn't kept up with other places nearby.,8
+EX035,2025-12,S05,Manchester Northern Quarter,Team Leader,15,Career change,Got a full time job in my field.,7
+EX036,2026-02,S05,Manchester Northern Quarter,Barista,6,Moving away / study,Finished my degree and moving home.,8
+EX037,2026-03,S05,Manchester Northern Quarter,Team Leader,8,Career change,Starting an apprenticeship.,6
+EX038,2026-06,S05,Manchester Northern Quarter,Barista,52,Workload / understaffing,Too few people on for how busy it gets. Every shift felt like a rush.,8
+EX039,2025-07,S06,Manchester Spinningfields,Barista,5,Workload / understaffing,"Lunch shifts were always short-staffed, it was exhausting.",4
+EX040,2025-07,S06,Manchester Spinningfields,Team Leader,8,Better pay elsewhere,Pay hasn't kept up with other places nearby.,3
+EX041,2025-07,S06,Manchester Spinningfields,Barista,5,Workload / understaffing,Asked for more help at lunch for months and nothing changed.,5
+EX042,2025-08,S06,Manchester Spinningfields,Barista,9,Workload / understaffing,Too few people on for how busy it gets. Every shift felt like a rush.,4
+EX043,2025-10,S06,Manchester Spinningfields,Kitchen Assistant,9,Workload / understaffing,"Lunch shifts were always short-staffed, it was exhausting.",5
+EX044,2025-11,S06,Manchester Spinningfields,Barista,7,Workload / understaffing,Too few people on for how busy it gets. Every shift felt like a rush.,2
+EX045,2025-11,S06,Manchester Spinningfields,Team Leader,14,Better pay elsewhere,Another chain offered more per hour.,0
+EX046,2026-02,S06,Manchester Spinningfields,Team Leader,3,Hours / rota,Rota came out late and changed a lot.,4
+EX047,2026-04,S06,Manchester Spinningfields,Team Leader,6,Workload / understaffing,"Lunch shifts were always short-staffed, it was exhausting.",7
+EX048,2025-07,S07,Manchester Piccadilly,Barista,7,Better pay elsewhere,Pay hasn't kept up with other places nearby.,7
+EX049,2025-07,S07,Manchester Piccadilly,Barista,4,Workload / understaffing,"Lunch shifts were always short-staffed, it was exhausting.",5
+EX050,2025-07,S07,Manchester Piccadilly,Team Leader,7,Hours / rota,Too many split shifts.,4
+EX051,2025-07,S07,Manchester Piccadilly,Team Leader,1,Workload / understaffing,Too few people on for how busy it gets. Every shift felt like a rush.,3
+EX052,2025-08,S07,Manchester Piccadilly,Kitchen Assistant,6,Workload / understaffing,Constant queues and angry customers because we were short.,5
+EX053,2025-08,S07,Manchester Piccadilly,Barista,6,Career change,Wanted something office based.,3
+EX054,2025-09,S07,Manchester Piccadilly,Barista,19,Workload / understaffing,Constant queues and angry customers because we were short.,6
+EX055,2025-09,S07,Manchester Piccadilly,Barista,2,Workload / understaffing,Asked for more help at lunch for months and nothing changed.,7
+EX056,2025-09,S07,Manchester Piccadilly,Barista,5,Management / working conditions,Place was not kept clean and it was left to us.,4
+EX057,2025-09,S07,Manchester Piccadilly,Barista,8,Workload / understaffing,Constant queues and angry customers because we were short.,4
+EX058,2025-10,S07,Manchester Piccadilly,Barista,11,Workload / understaffing,Asked for more help at lunch for months and nothing changed.,2
+EX059,2025-10,S07,Manchester Piccadilly,Barista,6,Hours / rota,Couldn't get the hours I needed.,6
+EX060,2025-10,S07,Manchester Piccadilly,Barista,2,Workload / understaffing,Too few people on for how busy it gets. Every shift felt like a rush.,4
+EX061,2025-12,S07,Manchester Piccadilly,Team Leader,6,Workload / understaffing,Too few people on for how busy it gets. Every shift felt like a rush.,2
+EX062,2025-12,S07,Manchester Piccadilly,Barista,9,Career change,Wanted something office based.,2
+EX063,2026-01,S07,Manchester Piccadilly,Barista,6,Moving away / study,Moving cities for uni.,5
+EX064,2026-01,S07,Manchester Piccadilly,Barista,1,Workload / understaffing,"Lunch shifts were always short-staffed, it was exhausting.",5
+EX065,2026-02,S07,Manchester Piccadilly,Team Leader,2,Better pay elsewhere,Pay hasn't kept up with other places nearby.,4
+EX066,2026-03,S07,Manchester Piccadilly,Team Leader,6,Workload / understaffing,Asked for more help at lunch for months and nothing changed.,2
+EX067,2026-03,S07,Manchester Piccadilly,Kitchen Assistant,5,Better pay elsewhere,Pay hasn't kept up with other places nearby.,4
+EX068,2026-03,S07,Manchester Piccadilly,Barista,3,Workload / understaffing,Constant queues and angry customers because we were short.,4
+EX069,2026-04,S07,Manchester Piccadilly,Team Leader,4,Hours / rota,Couldn't get the hours I needed.,6
+EX070,2026-04,S07,Manchester Piccadilly,Team Leader,11,Better pay elsewhere,Pay hasn't kept up with other places nearby.,3
+EX071,2026-04,S07,Manchester Piccadilly,Team Leader,8,Workload / understaffing,Constant queues and angry customers because we were short.,4
+EX072,2026-05,S07,Manchester Piccadilly,Team Leader,8,Workload / understaffing,Asked for more help at lunch for months and nothing changed.,6
+EX073,2026-05,S07,Manchester Piccadilly,Barista,8,Better pay elsewhere,Pay hasn't kept up with other places nearby.,2
+EX074,2026-05,S07,Manchester Piccadilly,Barista,11,Better pay elsewhere,Got 50p an hour more down the road.,3
+EX075,2026-05,S07,Manchester Piccadilly,Barista,3,Workload / understaffing,"Lunch shifts were always short-staffed, it was exhausting.",2
+EX076,2026-06,S07,Manchester Piccadilly,Kitchen Assistant,8,Career change,Wanted something office based.,5
+EX077,2026-06,S07,Manchester Piccadilly,Barista,3,Better pay elsewhere,Another chain offered more per hour.,6
+EX078,2026-06,S07,Manchester Piccadilly,Barista,3,Better pay elsewhere,Got 50p an hour more down the road.,3
+EX079,2026-06,S07,Manchester Piccadilly,Team Leader,14,Better pay elsewhere,Another chain offered more per hour.,3
+EX080,2025-07,S08,Nottingham Hockley,Barista,14,Moving away / study,Moving cities for uni.,5
+EX081,2025-08,S08,Nottingham Hockley,Barista,48,Moving away / study,Finished my degree and moving home.,6
+EX082,2025-09,S08,Nottingham Hockley,Barista,14,Workload / understaffing,Constant queues and angry customers because we were short.,8
+EX083,2025-11,S08,Nottingham Hockley,Team Leader,8,Better pay elsewhere,Got 50p an hour more down the road.,7
+EX084,2025-12,S08,Nottingham Hockley,Team Leader,4,Management / working conditions,Didn't feel supported by management.,5
+EX085,2026-01,S08,Nottingham Hockley,Barista,16,Hours / rota,Rota came out late and changed a lot.,7
+EX086,2026-02,S08,Nottingham Hockley,Kitchen Assistant,12,Better pay elsewhere,Pay hasn't kept up with other places nearby.,7
+EX087,2026-02,S08,Nottingham Hockley,Barista,20,Workload / understaffing,Asked for more help at lunch for months and nothing changed.,6
+EX088,2026-03,S08,Nottingham Hockley,Barista,18,Moving away / study,Finished my degree and moving home.,8
+EX089,2026-06,S08,Nottingham Hockley,Barista,22,Moving away / study,Relocating with family.,9
+EX090,2025-11,S09,Harrogate James Street,Barista,3,Better pay elsewhere,Another chain offered more per hour.,6
+EX091,2026-06,S09,Harrogate James Street,Barista,42,Career change,Wanted something office based.,7
+EX092,2025-07,S10,Hull Paragon,Team Leader,29,Management / working conditions,Place was not kept clean and it was left to us.,4
+EX093,2025-08,S10,Hull Paragon,Barista,20,Better pay elsewhere,Pay hasn't kept up with other places nearby.,5
+EX094,2025-08,S10,Hull Paragon,Team Leader,2,Workload / understaffing,Constant queues and angry customers because we were short.,4
+EX095,2025-09,S10,Hull Paragon,Kitchen Assistant,19,Better pay elsewhere,Got 50p an hour more down the road.,4
+EX096,2025-09,S10,Hull Paragon,Barista,24,Management / working conditions,Equipment was always broken and nothing got fixed.,6
+EX097,2025-09,S10,Hull Paragon,Barista,9,Management / working conditions,Place was not kept clean and it was left to us.,6
+EX098,2025-09,S10,Hull Paragon,Barista,36,Management / working conditions,Place was not kept clean and it was left to us.,7
+EX099,2025-11,S10,Hull Paragon,Kitchen Assistant,30,Workload / understaffing,"Lunch shifts were always short-staffed, it was exhausting.",3
+EX100,2025-11,S10,Hull Paragon,Team Leader,30,Moving away / study,Moving cities for uni.,5
+EX101,2025-12,S10,Hull Paragon,Barista,31,Better pay elsewhere,Pay hasn't kept up with other places nearby.,3
+EX102,2026-01,S10,Hull Paragon,Kitchen Assistant,18,Management / working conditions,Didn't feel supported by management.,5
+EX103,2026-01,S10,Hull Paragon,Kitchen Assistant,28,Hours / rota,Couldn't get the hours I needed.,4
+EX104,2026-01,S10,Hull Paragon,Kitchen Assistant,15,Management / working conditions,Didn't feel supported by management.,7
+EX105,2026-04,S10,Hull Paragon,Team Leader,7,Better pay elsewhere,Pay hasn't kept up with other places nearby.,2
+EX106,2026-04,S10,Hull Paragon,Barista,17,Workload / understaffing,Constant queues and angry customers because we were short.,4
+EX107,2026-05,S10,Hull Paragon,Barista,32,Management / working conditions,Place was not kept clean and it was left to us.,3
+EX108,2025-08,S11,Sheffield Uni Campus,Barista,5,Better pay elsewhere,Pay hasn't kept up with other places nearby.,10
+EX109,2025-09,S11,Sheffield Uni Campus,Team Leader,12,Moving away / study,Finished my degree and moving home.,9
+EX110,2025-09,S11,Sheffield Uni Campus,Barista,50,Moving away / study,Relocating with family.,8
+EX111,2026-02,S11,Sheffield Uni Campus,Barista,23,Better pay elsewhere,Another chain offered more per hour.,8
+EX112,2026-04,S11,Sheffield Uni Campus,Barista,19,Better pay elsewhere,Got 50p an hour more down the road.,6
+EX113,2025-09,S12,Leeds Trinity,Team Leader,34,Moving away / study,Finished my degree and moving home.,9
+EX114,2026-06,S12,Leeds Trinity,Barista,9,Career change,Starting an apprenticeship.,4
+EX115,2026-06,S12,Leeds Trinity,Barista,13,Moving away / study,Moving cities for uni.,7

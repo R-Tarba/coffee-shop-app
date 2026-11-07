@@ -1,0 +1,4 @@
+partner,valid_from,valid_to,commission_rate,packaging_cost_per_order_gbp,notes
+RushEats,2025-07-01,,0.3,0.45,Commission on gross order value; packaging cost borne by Grind & Crumb
+Dashly,2025-07-01,2026-03-31,0.27,0.45,
+Dashly,2026-04-01,,0.33,0.45,"Contract renewal, commission increased"

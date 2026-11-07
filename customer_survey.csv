@@ -1,0 +1,651 @@
+response_id,response_date,home_store,visit_frequency,visits_vs_last_year,usual_milk,uses_app,uses_delivery,likelihood_to_recommend_10,what_would_make_you_visit_more
+CS0001,2026-05-13,York Stonegate,2-4 times a week,Less,Dairy,Yes,No,10,"Fix the app, my stamps vanished."
+CS0002,2026-05-05,Harrogate James Street,Weekly,Same,Dairy,Yes,Yes,7,Keep doing what you're doing.
+CS0003,2026-05-22,Sheffield Station,2-4 times a week,Same,Dairy,No,No,8,"Nothing, love it."
+CS0004,2026-05-07,Nottingham Hockley,Daily,Less,Dairy,No,No,6,Lower prices.
+CS0005,2026-05-24,Manchester Piccadilly,Daily,Less,Dairy,No,No,7,Keep doing what you're doing.
+CS0006,2026-05-22,Harrogate James Street,2-4 times a week,Less,No milk,No,No,7,"Nothing, love it."
+CS0007,2026-05-22,Manchester Northern Quarter,Daily,More,Dairy,No,No,9,More loyalty rewards.
+CS0008,2026-05-20,Nottingham Hockley,2-4 times a week,Less,Skimmed,Yes,No,7,The new app crashes at checkout.
+CS0009,2026-05-24,Leeds Briggate,2-4 times a week,More,Dairy,No,Yes,9,Keep doing what you're doing.
+CS0010,2026-05-17,York Stonegate,2-4 times a week,More,Oat,No,Yes,8,I go somewhere else for my oat latte now.
+CS0011,2026-05-10,Leeds Trinity,Weekly,Same,Dairy,No,No,9,Keep doing what you're doing.
+CS0012,2026-05-19,York Stonegate,Daily,Same,Dairy,Yes,Yes,5,Lower prices.
+CS0013,2026-05-23,Sheffield Uni Campus,Daily,Same,Dairy,Yes,Yes,6,More seating.
+CS0014,2026-05-11,Leeds Briggate,2-4 times a week,Same,Dairy,Yes,Yes,8,Somewhere to sit at busy times.
+CS0015,2026-05-09,Harrogate James Street,2-4 times a week,Same,Oat,Yes,No,8,Bring back the old app.
+CS0016,2026-05-05,Sheffield Division Street,Daily,More,Dairy,No,No,10,More loyalty rewards.
+CS0017,2026-05-22,Leeds Trinity,2-4 times a week,More,Dairy,No,No,9,Keep doing what you're doing.
+CS0018,2026-05-09,Manchester Spinningfields,Daily,Less,No milk,No,No,7,Faster service at lunch.
+CS0019,2026-05-23,Manchester Piccadilly,Weekly,Same,Dairy,Yes,Yes,6,"More staff at lunchtime, the queue is too long."
+CS0020,2026-05-17,Hull Paragon,Daily,Same,Dairy,No,No,8,The store looks tired and messy.
+CS0021,2026-05-24,Nottingham Hockley,Weekly,Less,Dairy,Yes,No,7,Bring back the old app.
+CS0022,2026-05-08,Leeds Trinity,Weekly,Less,Oat,Yes,No,9,"Order ahead used to be great, now it's unreliable."
+CS0023,2026-05-17,Sheffield Division Street,Daily,Same,Skimmed,Yes,No,6,A coffee subscription would be good.
+CS0024,2026-05-19,Leeds Trinity,Monthly or less,Less,No milk,No,No,7,Keep doing what you're doing.
+CS0025,2026-05-10,Manchester Spinningfields,Daily,Less,Dairy,Yes,Yes,6,The new app crashes at checkout. Faster service at lunch.
+CS0026,2026-05-10,Leeds Briggate,Monthly or less,Less,Oat,Yes,Yes,4,Drop the oat milk charge. The new app crashes at checkout.
+CS0027,2026-05-22,Nottingham Hockley,Daily,Same,Dairy,No,No,9,"Nothing, love it."
+CS0028,2026-05-07,Sheffield Division Street,2-4 times a week,More,Dairy,No,No,6,"Keep the lunch meal deal, it's great value."
+CS0029,2026-05-06,York Stonegate,2-4 times a week,More,Dairy,No,No,7,More loyalty rewards.
+CS0030,2026-05-18,Hull Paragon,Monthly or less,Less,Dairy,Yes,No,8,The new app crashes at checkout.
+CS0031,2026-05-08,Manchester Northern Quarter,2-4 times a week,Less,Dairy,No,Yes,9,"Nothing, love it."
+CS0032,2026-05-14,Sheffield Uni Campus,Weekly,Less,Dairy,No,Yes,8,Keep doing what you're doing.
+CS0033,2026-05-14,Manchester Spinningfields,Weekly,Same,Dairy,Yes,No,6,"The new app crashes at checkout. More staff at lunchtime, the queue is too long."
+CS0034,2026-05-05,Leeds Trinity,Monthly or less,Same,Dairy,No,Yes,9,Keep doing what you're doing.
+CS0035,2026-05-25,Sheffield Station,Daily,Less,Oat,Yes,No,6,Drop the oat milk charge.
+CS0036,2026-05-17,Manchester Northern Quarter,2-4 times a week,Same,Oat,Yes,Yes,8,"Nothing, love it."
+CS0037,2026-05-11,York Stonegate,Weekly,Same,Oat,No,No,8,A cheaper coffee option.
+CS0038,2026-05-16,Harrogate James Street,2-4 times a week,Less,Oat,Yes,No,6,"Charging extra for oat milk feels unfair, Bean Social doesn't."
+CS0039,2026-05-05,Manchester Piccadilly,2-4 times a week,Same,No milk,Yes,Yes,10,More loyalty rewards.
+CS0040,2026-05-25,Sheffield Station,Weekly,More,Skimmed,Yes,Yes,9,More loyalty rewards.
+CS0041,2026-05-17,Leeds Trinity,Weekly,Less,No milk,Yes,No,5,"Order ahead used to be great, now it's unreliable."
+CS0042,2026-05-24,Sheffield Station,2-4 times a week,Less,Dairy,Yes,Yes,7,Lower prices.
+CS0043,2026-05-15,Manchester Piccadilly,Monthly or less,Less,Dairy,No,No,1,"I give up at lunch, the wait is too long. A coffee subscription would be good."
+CS0044,2026-05-23,Leeds Briggate,Monthly or less,Less,Dairy,Yes,No,6,A coffee subscription would be good.
+CS0045,2026-05-22,Hull Paragon,2-4 times a week,Same,Skimmed,Yes,Yes,6,"Fix the app, my stamps vanished."
+CS0046,2026-05-24,Leeds Trinity,Monthly or less,More,No milk,Yes,No,10,Keep doing what you're doing.
+CS0047,2026-05-19,Nottingham Hockley,Weekly,Less,Oat,Yes,Yes,4,I go somewhere else for my oat latte now. Bring back the meal deal.
+CS0048,2026-05-05,Sheffield Uni Campus,Weekly,Less,Dairy,Yes,No,7,Bring back the old app.
+CS0049,2026-05-13,Sheffield Division Street,Weekly,Less,Oat,No,No,8,I go somewhere else for my oat latte now.
+CS0050,2026-05-25,Manchester Northern Quarter,2-4 times a week,Less,Oat,Yes,No,7,Drop the oat milk charge.
+CS0051,2026-05-21,Hull Paragon,Weekly,Same,Dairy,No,Yes,8,Keep doing what you're doing.
+CS0052,2026-05-25,Leeds Trinity,2-4 times a week,Same,Oat,No,No,10,More loyalty rewards.
+CS0053,2026-05-10,Leeds Briggate,Daily,Same,Dairy,No,No,9,Keep doing what you're doing.
+CS0054,2026-05-18,Manchester Piccadilly,Weekly,Same,Dairy,Yes,No,10,"Nothing, love it."
+CS0055,2026-05-18,Sheffield Uni Campus,2-4 times a week,Same,Dairy,No,No,10,"Nothing, love it."
+CS0056,2026-05-19,Nottingham Hockley,Daily,Same,Dairy,No,No,8,"Nothing, love it."
+CS0057,2026-05-10,Leeds Briggate,Daily,Same,Dairy,Yes,Yes,10,"Nothing, love it."
+CS0058,2026-05-23,Manchester Northern Quarter,Weekly,Less,Oat,Yes,No,4,I go somewhere else for my oat latte now. The new app crashes at checkout.
+CS0059,2026-05-09,York Stonegate,Monthly or less,Same,Skimmed,No,No,8,"Nothing, love it."
+CS0060,2026-05-17,Leeds Trinity,2-4 times a week,Less,Oat,No,Yes,6,"Charging extra for oat milk feels unfair, Bean Social doesn't."
+CS0061,2026-05-09,Nottingham Hockley,2-4 times a week,Same,Dairy,No,No,9,More loyalty rewards.
+CS0062,2026-05-13,Leeds Briggate,2-4 times a week,Same,Dairy,Yes,No,6,"Fix the app, my stamps vanished."
+CS0063,2026-05-22,Nottingham Hockley,2-4 times a week,Same,Oat,No,No,9,"Nothing, love it."
+CS0064,2026-05-08,Manchester Northern Quarter,Daily,Same,Dairy,No,No,10,"Nothing, love it."
+CS0065,2026-05-13,Leeds Trinity,2-4 times a week,Same,Dairy,No,Yes,8,More loyalty rewards.
+CS0066,2026-05-15,York Stonegate,Daily,Less,Dairy,No,No,8,"Nothing, love it."
+CS0067,2026-05-05,Hull Paragon,Monthly or less,Same,Oat,Yes,Yes,5,"Drop the oat milk charge. Order ahead used to be great, now it's unreliable."
+CS0068,2026-05-20,Manchester Piccadilly,Daily,Less,Dairy,Yes,No,4,"I give up at lunch, the wait is too long. Lower prices."
+CS0069,2026-05-14,Leeds Briggate,Daily,Same,Skimmed,Yes,Yes,10,"Nothing, love it."
+CS0070,2026-05-15,Sheffield Station,2-4 times a week,Same,Dairy,Yes,No,7,"Nothing, love it."
+CS0071,2026-05-22,Manchester Northern Quarter,Weekly,Less,Dairy,Yes,Yes,6,"I give up at lunch, the wait is too long."
+CS0072,2026-05-07,York Stonegate,2-4 times a week,More,Dairy,No,No,8,Keep doing what you're doing.
+CS0073,2026-05-22,Sheffield Uni Campus,Monthly or less,Less,Oat,Yes,No,7,I come in less since the oat surcharge.
+CS0074,2026-05-18,Sheffield Division Street,Weekly,Same,Dairy,No,No,6,A coffee subscription would be good.
+CS0075,2026-05-19,Leeds Briggate,2-4 times a week,More,No milk,Yes,No,10,A cheaper coffee option.
+CS0076,2026-05-09,York Stonegate,2-4 times a week,Same,Dairy,No,No,5,A cheaper coffee option.
+CS0077,2026-05-10,Leeds Briggate,Weekly,Same,Oat,Yes,No,6,A coffee subscription would be good.
+CS0078,2026-05-23,Hull Paragon,Daily,Same,Oat,No,Yes,3,"Charging extra for oat milk feels unfair, Bean Social doesn't. The store looks tired and messy."
+CS0079,2026-05-06,Manchester Northern Quarter,2-4 times a week,Same,Dairy,No,No,10,"Nothing, love it."
+CS0080,2026-05-05,York Stonegate,Monthly or less,More,Dairy,Yes,No,9,"Nothing, love it."
+CS0081,2026-05-25,Manchester Piccadilly,2-4 times a week,More,Oat,Yes,Yes,9,Keep doing what you're doing.
+CS0082,2026-05-14,Manchester Northern Quarter,Weekly,Same,Dairy,Yes,No,9,Keep doing what you're doing.
+CS0083,2026-05-17,Hull Paragon,2-4 times a week,Same,Skimmed,No,No,7,Keep doing what you're doing.
+CS0084,2026-05-07,Sheffield Division Street,2-4 times a week,More,Oat,No,Yes,7,Keep doing what you're doing.
+CS0085,2026-05-13,Manchester Northern Quarter,Weekly,Same,Dairy,Yes,Yes,10,Keep doing what you're doing.
+CS0086,2026-05-20,Leeds Trinity,Weekly,Less,Oat,Yes,No,7,Drop the oat milk charge.
+CS0087,2026-05-23,Sheffield Division Street,Daily,Less,Dairy,Yes,No,6,The new app crashes at checkout.
+CS0088,2026-05-23,Leeds Briggate,Daily,Less,Dairy,Yes,Yes,6,"Fix the app, my stamps vanished."
+CS0089,2026-05-10,Manchester Spinningfields,Daily,Less,Oat,Yes,No,1,"Charging extra for oat milk feels unfair, Bean Social doesn't. I give up at lunch, the wait is too long."
+CS0090,2026-05-13,Sheffield Station,Weekly,More,Skimmed,Yes,No,9,Keep doing what you're doing.
+CS0091,2026-05-12,Leeds Briggate,2-4 times a week,Same,Dairy,No,No,8,Keep doing what you're doing.
+CS0092,2026-05-15,Manchester Northern Quarter,2-4 times a week,Less,Dairy,Yes,Yes,4,The new app crashes at checkout. A coffee subscription would be good.
+CS0093,2026-05-12,Manchester Northern Quarter,Monthly or less,More,Oat,No,Yes,9,"Nothing, love it."
+CS0094,2026-05-06,Nottingham Hockley,2-4 times a week,More,Oat,Yes,No,6,Lower prices.
+CS0095,2026-05-06,Leeds Trinity,Monthly or less,More,No milk,No,No,7,A coffee subscription would be good.
+CS0096,2026-05-05,Leeds Briggate,2-4 times a week,Same,Dairy,Yes,No,4,"Order ahead used to be great, now it's unreliable."
+CS0097,2026-05-19,Sheffield Uni Campus,Weekly,More,Oat,Yes,No,8,"Keep the lunch meal deal, it's great value."
+CS0098,2026-05-11,York Stonegate,Monthly or less,Same,Dairy,Yes,Yes,10,More loyalty rewards.
+CS0099,2026-05-09,York Stonegate,Weekly,Same,Skimmed,Yes,Yes,9,More loyalty rewards.
+CS0100,2026-05-19,Manchester Northern Quarter,2-4 times a week,Less,Dairy,Yes,No,8,"Fix the app, my stamps vanished."
+CS0101,2026-05-22,Leeds Trinity,Weekly,More,Dairy,No,No,7,More loyalty rewards.
+CS0102,2026-05-21,Leeds Trinity,Weekly,Less,Oat,No,No,8,"Charging extra for oat milk feels unfair, Bean Social doesn't."
+CS0103,2026-05-25,Sheffield Division Street,2-4 times a week,Less,No milk,Yes,No,9,"Fix the app, my stamps vanished."
+CS0104,2026-05-22,Harrogate James Street,2-4 times a week,Same,Skimmed,Yes,No,8,More loyalty rewards.
+CS0105,2026-05-06,Manchester Spinningfields,Weekly,More,Dairy,No,No,7,Don't run out of sandwiches so early.
+CS0106,2026-05-14,Hull Paragon,2-4 times a week,Less,Oat,Yes,No,8,More loyalty rewards.
+CS0107,2026-05-17,York Stonegate,Weekly,Same,Dairy,Yes,No,6,A cheaper coffee option.
+CS0108,2026-05-10,Harrogate James Street,2-4 times a week,Same,Dairy,No,No,9,"Nothing, love it."
+CS0109,2026-05-06,Sheffield Division Street,2-4 times a week,More,No milk,Yes,No,6,"Order ahead used to be great, now it's unreliable."
+CS0110,2026-05-20,Manchester Piccadilly,Weekly,More,Oat,Yes,No,8,"Nothing, love it."
+CS0111,2026-05-24,Harrogate James Street,2-4 times a week,Less,Dairy,Yes,Yes,7,Bring back the meal deal.
+CS0112,2026-05-22,York Stonegate,Weekly,Same,Oat,No,No,9,More loyalty rewards.
+CS0113,2026-05-13,Harrogate James Street,Weekly,Same,No milk,Yes,Yes,8,"Nothing, love it."
+CS0114,2026-05-15,Harrogate James Street,2-4 times a week,Less,Oat,Yes,Yes,7,I come in less since the oat surcharge.
+CS0115,2026-05-08,Manchester Spinningfields,Weekly,Less,Dairy,Yes,No,6,Faster service at lunch.
+CS0116,2026-05-23,Harrogate James Street,Monthly or less,Same,Dairy,Yes,Yes,8,Keep doing what you're doing.
+CS0117,2026-05-10,Leeds Briggate,Weekly,Same,Dairy,Yes,Yes,4,More seating.
+CS0118,2026-05-13,Hull Paragon,2-4 times a week,Less,Dairy,Yes,No,5,The new app crashes at checkout.
+CS0119,2026-05-09,Manchester Piccadilly,Monthly or less,Same,Dairy,Yes,No,8,Bring back the old app.
+CS0120,2026-05-17,Hull Paragon,2-4 times a week,Less,Oat,No,Yes,6,"Charging extra for oat milk feels unfair, Bean Social doesn't."
+CS0121,2026-05-18,Harrogate James Street,2-4 times a week,More,Dairy,Yes,Yes,7,More loyalty rewards.
+CS0122,2026-05-21,Hull Paragon,Monthly or less,Same,No milk,No,Yes,5,Cleaner tables and toilets.
+CS0123,2026-05-16,Harrogate James Street,2-4 times a week,Less,Oat,Yes,No,4,Drop the oat milk charge.
+CS0124,2026-05-07,Sheffield Division Street,2-4 times a week,Same,Dairy,No,No,6,Keep doing what you're doing.
+CS0125,2026-05-10,Sheffield Station,2-4 times a week,Same,Dairy,Yes,No,5,Bring back the old app. A cheaper coffee option.
+CS0126,2026-05-09,Manchester Piccadilly,2-4 times a week,Same,No milk,Yes,No,10,"Nothing, love it."
+CS0127,2026-05-14,Sheffield Uni Campus,Daily,Less,Dairy,Yes,No,7,"Order ahead used to be great, now it's unreliable. A cheaper coffee option."
+CS0128,2026-05-16,York Stonegate,Monthly or less,More,Oat,No,No,8,More loyalty rewards.
+CS0129,2026-05-16,Hull Paragon,Weekly,Less,Oat,No,Yes,9,"Charging extra for oat milk feels unfair, Bean Social doesn't."
+CS0130,2026-05-09,Sheffield Division Street,2-4 times a week,More,Dairy,No,No,10,Keep doing what you're doing.
+CS0131,2026-05-25,Manchester Spinningfields,Weekly,Less,Oat,Yes,No,8,Drop the oat milk charge.
+CS0132,2026-05-10,Manchester Northern Quarter,Monthly or less,Same,Dairy,No,No,10,"Nothing, love it."
+CS0133,2026-05-25,Nottingham Hockley,2-4 times a week,More,Skimmed,Yes,No,8,"Nothing, love it."
+CS0134,2026-05-17,Sheffield Station,Daily,Same,No milk,Yes,Yes,6,"Nothing, love it."
+CS0135,2026-05-07,Manchester Piccadilly,Monthly or less,Less,Oat,No,No,5,I go somewhere else for my oat latte now.
+CS0136,2026-05-19,Hull Paragon,2-4 times a week,Less,Oat,Yes,Yes,7,I come in less since the oat surcharge.
+CS0137,2026-05-12,Manchester Piccadilly,Daily,Less,Dairy,Yes,No,3,"Order ahead used to be great, now it's unreliable. Faster service at lunch."
+CS0138,2026-05-11,Leeds Trinity,Monthly or less,Less,Skimmed,Yes,No,7,Keep doing what you're doing.
+CS0139,2026-05-23,Sheffield Division Street,2-4 times a week,Same,No milk,No,Yes,10,More loyalty rewards.
+CS0140,2026-05-12,York Stonegate,2-4 times a week,Same,Dairy,Yes,No,9,A coffee subscription would be good.
+CS0141,2026-05-14,Leeds Briggate,Weekly,Same,Oat,No,No,10,"Nothing, love it."
+CS0142,2026-05-10,Manchester Piccadilly,2-4 times a week,More,No milk,Yes,Yes,4,"More staff at lunchtime, the queue is too long. A coffee subscription would be good."
+CS0143,2026-05-12,Hull Paragon,Weekly,More,Dairy,Yes,No,6,Keep doing what you're doing.
+CS0144,2026-05-20,Nottingham Hockley,Daily,Same,Dairy,Yes,No,9,More loyalty rewards.
+CS0145,2026-05-18,York Stonegate,2-4 times a week,Same,Skimmed,Yes,No,7,Lower prices.
+CS0146,2026-05-25,York Stonegate,Weekly,More,Skimmed,Yes,Yes,10,More loyalty rewards.
+CS0147,2026-05-17,Manchester Northern Quarter,Monthly or less,Less,Oat,Yes,No,6,Drop the oat milk charge. Bring back the old app.
+CS0148,2026-05-15,Nottingham Hockley,2-4 times a week,Same,Skimmed,Yes,Yes,6,The new app crashes at checkout.
+CS0149,2026-05-22,Harrogate James Street,Weekly,Same,Oat,Yes,No,8,Keep doing what you're doing.
+CS0150,2026-05-08,Sheffield Division Street,Weekly,Same,Dairy,No,No,8,"Nothing, love it."
+CS0151,2026-05-09,Nottingham Hockley,Daily,Same,No milk,No,Yes,9,Bring back the meal deal.
+CS0152,2026-05-23,Leeds Briggate,Monthly or less,Less,Oat,Yes,No,6,"Charging extra for oat milk feels unfair, Bean Social doesn't."
+CS0153,2026-05-09,Sheffield Division Street,Weekly,Less,Oat,Yes,Yes,5,"Fix the app, my stamps vanished. A coffee subscription would be good."
+CS0154,2026-05-20,York Stonegate,Monthly or less,Less,No milk,No,Yes,9,Keep doing what you're doing.
+CS0155,2026-05-20,Manchester Piccadilly,2-4 times a week,More,Dairy,Yes,No,5,"More staff at lunchtime, the queue is too long. Bring back the meal deal."
+CS0156,2026-05-17,Manchester Spinningfields,Monthly or less,Same,Dairy,No,No,8,More loyalty rewards.
+CS0157,2026-05-11,Hull Paragon,2-4 times a week,Same,Dairy,Yes,Yes,5,"Fix the app, my stamps vanished."
+CS0158,2026-05-16,Leeds Briggate,Weekly,Same,Dairy,Yes,Yes,8,More seating.
+CS0159,2026-05-10,Manchester Northern Quarter,Daily,Same,Oat,No,No,7,"Nothing, love it."
+CS0160,2026-05-14,Harrogate James Street,Monthly or less,Same,Skimmed,Yes,No,8,"Nothing, love it."
+CS0161,2026-05-19,Hull Paragon,Daily,Same,Dairy,Yes,No,6,"Fix the app, my stamps vanished."
+CS0162,2026-05-24,York Stonegate,Weekly,More,Dairy,No,No,9,"Nothing, love it."
+CS0163,2026-05-15,Hull Paragon,Monthly or less,Less,Oat,No,No,3,I go somewhere else for my oat latte now. Cleaner tables and toilets.
+CS0164,2026-05-19,Manchester Northern Quarter,Weekly,Less,Dairy,Yes,No,5,Bring back the old app. A coffee subscription would be good.
+CS0165,2026-05-08,Manchester Piccadilly,Monthly or less,Less,Oat,No,No,6,"Charging extra for oat milk feels unfair, Bean Social doesn't. Faster service at lunch."
+CS0166,2026-05-23,Hull Paragon,Weekly,Same,Oat,No,No,5,I come in less since the oat surcharge.
+CS0167,2026-05-15,Manchester Northern Quarter,Weekly,Less,No milk,No,Yes,5,"Keep the lunch meal deal, it's great value. Lower prices."
+CS0168,2026-05-24,Sheffield Uni Campus,2-4 times a week,Same,No milk,No,Yes,9,More loyalty rewards.
+CS0169,2026-05-24,Sheffield Division Street,Weekly,Same,Dairy,No,No,8,A coffee subscription would be good.
+CS0170,2026-05-23,Leeds Trinity,2-4 times a week,More,No milk,Yes,Yes,7,"Fix the app, my stamps vanished."
+CS0171,2026-05-24,Hull Paragon,Weekly,Less,Oat,No,No,5,I come in less since the oat surcharge. The store looks tired and messy.
+CS0172,2026-05-08,York Stonegate,Monthly or less,Same,Oat,Yes,No,8,"Nothing, love it."
+CS0173,2026-05-06,Manchester Piccadilly,2-4 times a week,Less,No milk,Yes,Yes,6,The new app crashes at checkout. Faster service at lunch.
+CS0174,2026-05-06,Nottingham Hockley,Daily,Less,Dairy,Yes,No,9,Keep doing what you're doing.
+CS0175,2026-05-12,Leeds Trinity,2-4 times a week,Same,Dairy,No,Yes,6,Lower prices.
+CS0176,2026-05-24,Leeds Trinity,Daily,Less,Dairy,Yes,Yes,7,"Order ahead used to be great, now it's unreliable."
+CS0177,2026-05-11,Manchester Piccadilly,Monthly or less,Same,Skimmed,Yes,Yes,10,"Keep the lunch meal deal, it's great value."
+CS0178,2026-05-15,Sheffield Division Street,2-4 times a week,More,Dairy,Yes,No,7,More loyalty rewards.
+CS0179,2026-05-21,Sheffield Division Street,Daily,Same,Oat,Yes,No,10,Keep doing what you're doing.
+CS0180,2026-05-05,York Stonegate,2-4 times a week,More,Dairy,No,Yes,10,Keep doing what you're doing.
+CS0181,2026-05-14,Sheffield Division Street,2-4 times a week,Less,No milk,Yes,No,7,Bring back the old app.
+CS0182,2026-05-16,Sheffield Uni Campus,Daily,More,No milk,No,Yes,9,"Nothing, love it."
+CS0183,2026-05-19,York Stonegate,Weekly,Same,Dairy,No,No,10,Lower prices.
+CS0184,2026-05-19,Nottingham Hockley,2-4 times a week,Less,Oat,No,No,7,"Charging extra for oat milk feels unfair, Bean Social doesn't."
+CS0185,2026-05-21,Hull Paragon,Monthly or less,Less,Oat,Yes,No,5,I go somewhere else for my oat latte now.
+CS0186,2026-05-18,Manchester Piccadilly,2-4 times a week,Less,Oat,No,No,5,I go somewhere else for my oat latte now. A coffee subscription would be good.
+CS0187,2026-05-10,Sheffield Uni Campus,Daily,Same,Dairy,No,No,7,"Nothing, love it."
+CS0188,2026-05-22,Sheffield Station,2-4 times a week,Same,Dairy,Yes,Yes,6,A coffee subscription would be good.
+CS0189,2026-05-13,Nottingham Hockley,Weekly,Same,Dairy,No,No,7,"Nothing, love it."
+CS0190,2026-05-11,Manchester Spinningfields,Weekly,Same,No milk,Yes,Yes,8,More loyalty rewards.
+CS0191,2026-05-17,York Stonegate,Weekly,More,No milk,Yes,Yes,10,More loyalty rewards.
+CS0192,2026-05-18,Hull Paragon,Weekly,Less,Oat,Yes,No,5,Drop the oat milk charge. Bring back the old app.
+CS0193,2026-05-11,Manchester Northern Quarter,Monthly or less,Same,Skimmed,No,No,6,Lower prices.
+CS0194,2026-05-06,Manchester Northern Quarter,Monthly or less,Same,Dairy,Yes,No,5,"Fix the app, my stamps vanished."
+CS0195,2026-05-09,Sheffield Uni Campus,2-4 times a week,More,Dairy,No,Yes,9,"Nothing, love it."
+CS0196,2026-05-06,Manchester Piccadilly,Weekly,Less,No milk,No,No,8,Faster service at lunch.
+CS0197,2026-05-05,Manchester Piccadilly,2-4 times a week,More,Oat,No,Yes,9,"Nothing, love it."
+CS0198,2026-05-21,Manchester Piccadilly,2-4 times a week,Less,Dairy,Yes,No,8,"More staff at lunchtime, the queue is too long."
+CS0199,2026-05-15,Manchester Piccadilly,Weekly,Less,Dairy,Yes,Yes,5,"I give up at lunch, the wait is too long."
+CS0200,2026-05-18,York Stonegate,Weekly,More,Dairy,No,No,10,A coffee subscription would be good.
+CS0201,2026-05-17,Sheffield Division Street,Daily,Same,No milk,No,No,8,"Nothing, love it."
+CS0202,2026-05-14,Sheffield Uni Campus,2-4 times a week,Less,Skimmed,Yes,No,5,"Fix the app, my stamps vanished."
+CS0203,2026-05-13,Sheffield Division Street,2-4 times a week,More,Skimmed,No,Yes,9,Keep doing what you're doing.
+CS0204,2026-05-06,Manchester Northern Quarter,Weekly,Same,Skimmed,Yes,No,9,More loyalty rewards.
+CS0205,2026-05-14,Manchester Spinningfields,Monthly or less,More,Dairy,Yes,No,6,Bring back the old app. Faster service at lunch.
+CS0206,2026-05-18,Manchester Northern Quarter,Monthly or less,Less,Skimmed,Yes,No,5,"Fix the app, my stamps vanished."
+CS0207,2026-05-21,Sheffield Station,2-4 times a week,Less,Oat,Yes,No,5,"Nothing, love it."
+CS0208,2026-05-09,Manchester Northern Quarter,Daily,Less,No milk,Yes,No,8,The new app crashes at checkout.
+CS0209,2026-05-18,Sheffield Station,2-4 times a week,Less,Oat,Yes,Yes,7,"Order ahead used to be great, now it's unreliable."
+CS0210,2026-05-24,Leeds Briggate,Weekly,Same,Dairy,No,No,7,Lower prices.
+CS0211,2026-05-07,York Stonegate,Weekly,More,Dairy,Yes,No,10,"Nothing, love it."
+CS0212,2026-05-20,Sheffield Uni Campus,Daily,Same,Dairy,No,No,10,More loyalty rewards.
+CS0213,2026-05-25,Leeds Briggate,Monthly or less,Same,Dairy,Yes,No,9,Keep doing what you're doing.
+CS0214,2026-05-07,Manchester Northern Quarter,2-4 times a week,More,Dairy,Yes,Yes,9,More loyalty rewards.
+CS0215,2026-05-21,Manchester Northern Quarter,2-4 times a week,More,Oat,No,No,3,Drop the oat milk charge.
+CS0216,2026-05-21,Nottingham Hockley,2-4 times a week,More,No milk,No,No,8,"Nothing, love it."
+CS0217,2026-05-14,Leeds Trinity,Weekly,More,Oat,Yes,No,7,Keep doing what you're doing.
+CS0218,2026-05-19,Sheffield Station,2-4 times a week,Same,No milk,No,Yes,10,Keep doing what you're doing.
+CS0219,2026-05-12,Hull Paragon,2-4 times a week,Less,Dairy,Yes,Yes,8,More loyalty rewards.
+CS0220,2026-05-20,Harrogate James Street,Daily,Less,Oat,No,Yes,6,I come in less since the oat surcharge.
+CS0221,2026-05-23,Sheffield Uni Campus,Weekly,Less,Dairy,Yes,No,9,"Order ahead used to be great, now it's unreliable."
+CS0222,2026-05-14,York Stonegate,2-4 times a week,Less,Dairy,No,Yes,8,Keep doing what you're doing.
+CS0223,2026-05-23,Manchester Piccadilly,2-4 times a week,More,Oat,Yes,No,5,"I go somewhere else for my oat latte now. I give up at lunch, the wait is too long."
+CS0224,2026-05-24,Leeds Briggate,Daily,More,Oat,No,No,4,More seating. A coffee subscription would be good.
+CS0225,2026-05-09,Manchester Northern Quarter,Weekly,Same,Dairy,No,Yes,10,More loyalty rewards.
+CS0226,2026-05-10,Sheffield Uni Campus,Monthly or less,More,Dairy,Yes,Yes,10,Keep doing what you're doing.
+CS0227,2026-05-25,York Stonegate,2-4 times a week,More,No milk,Yes,No,9,More loyalty rewards.
+CS0228,2026-05-20,Leeds Briggate,2-4 times a week,Less,Dairy,Yes,Yes,7,The new app crashes at checkout.
+CS0229,2026-05-11,York Stonegate,Monthly or less,Same,Dairy,No,No,8,Keep doing what you're doing.
+CS0230,2026-05-21,Manchester Northern Quarter,2-4 times a week,Same,Dairy,Yes,Yes,8,"Nothing, love it."
+CS0231,2026-05-06,Leeds Briggate,Weekly,Same,No milk,No,No,10,Keep doing what you're doing.
+CS0232,2026-05-08,Sheffield Division Street,Weekly,More,No milk,No,No,6,"Nothing, love it."
+CS0233,2026-05-12,Manchester Piccadilly,2-4 times a week,Less,No milk,No,Yes,6,"More staff at lunchtime, the queue is too long."
+CS0234,2026-05-08,Nottingham Hockley,Monthly or less,More,No milk,Yes,Yes,9,Keep doing what you're doing.
+CS0235,2026-05-12,Leeds Briggate,2-4 times a week,Same,Oat,No,Yes,9,Keep doing what you're doing.
+CS0236,2026-05-06,Manchester Piccadilly,Monthly or less,Less,Dairy,Yes,No,6,Faster service at lunch.
+CS0237,2026-05-06,Manchester Northern Quarter,Daily,Less,Oat,No,Yes,7,I come in less since the oat surcharge.
+CS0238,2026-05-15,Manchester Northern Quarter,2-4 times a week,More,Dairy,Yes,No,8,Keep doing what you're doing.
+CS0239,2026-05-13,Sheffield Division Street,2-4 times a week,Same,Oat,No,No,7,Drop the oat milk charge.
+CS0240,2026-05-21,Sheffield Station,2-4 times a week,Less,Dairy,Yes,No,7,"Nothing, love it."
+CS0241,2026-05-16,Sheffield Station,2-4 times a week,More,Dairy,Yes,No,7,More loyalty rewards.
+CS0242,2026-05-07,Nottingham Hockley,2-4 times a week,Same,Dairy,Yes,No,10,Keep doing what you're doing.
+CS0243,2026-05-07,Harrogate James Street,Daily,Same,Dairy,No,No,8,"Nothing, love it."
+CS0244,2026-05-20,Leeds Briggate,Weekly,Less,Dairy,Yes,No,10,"Nothing, love it."
+CS0245,2026-05-17,Leeds Trinity,2-4 times a week,Same,Dairy,No,No,7,More loyalty rewards.
+CS0246,2026-05-18,Sheffield Uni Campus,2-4 times a week,Same,No milk,Yes,No,7,Bring back the meal deal.
+CS0247,2026-05-22,Nottingham Hockley,Monthly or less,Same,Oat,Yes,No,8,"Nothing, love it."
+CS0248,2026-05-25,Manchester Northern Quarter,2-4 times a week,Same,Oat,No,No,6,"More staff at lunchtime, the queue is too long. Keep the lunch meal deal, it's great value."
+CS0249,2026-05-19,Sheffield Division Street,2-4 times a week,Same,Dairy,Yes,Yes,7,Keep doing what you're doing.
+CS0250,2026-05-19,Leeds Trinity,2-4 times a week,Less,No milk,No,Yes,8,More lunch options.
+CS0251,2026-05-15,Hull Paragon,Monthly or less,More,Dairy,Yes,No,10,"Fix the app, my stamps vanished."
+CS0252,2026-05-23,Harrogate James Street,Weekly,Same,Dairy,Yes,No,10,Keep doing what you're doing.
+CS0253,2026-05-23,Manchester Spinningfields,2-4 times a week,Less,Oat,Yes,Yes,7,I go somewhere else for my oat latte now.
+CS0254,2026-05-18,Manchester Northern Quarter,2-4 times a week,Same,Oat,Yes,No,10,"Nothing, love it."
+CS0255,2026-05-09,Harrogate James Street,Weekly,Same,Dairy,Yes,Yes,10,More loyalty rewards.
+CS0256,2026-05-17,Harrogate James Street,Weekly,More,Dairy,Yes,No,10,"Nothing, love it."
+CS0257,2026-05-16,Sheffield Station,2-4 times a week,More,Oat,Yes,No,6,I come in less since the oat surcharge.
+CS0258,2026-05-17,Sheffield Division Street,Weekly,Same,No milk,Yes,No,8,More loyalty rewards.
+CS0259,2026-05-11,Leeds Briggate,Daily,Less,No milk,Yes,Yes,8,Keep doing what you're doing.
+CS0260,2026-05-24,York Stonegate,Monthly or less,Same,Dairy,No,No,9,A coffee subscription would be good.
+CS0261,2026-05-16,Leeds Briggate,Monthly or less,Less,Oat,Yes,No,4,"I go somewhere else for my oat latte now. Order ahead used to be great, now it's unreliable."
+CS0262,2026-05-07,Sheffield Division Street,2-4 times a week,Same,Dairy,Yes,No,8,Keep doing what you're doing.
+CS0263,2026-05-14,York Stonegate,2-4 times a week,Less,Oat,Yes,No,4,I come in less since the oat surcharge.
+CS0264,2026-05-14,Leeds Briggate,2-4 times a week,Same,Skimmed,No,Yes,7,Keep doing what you're doing.
+CS0265,2026-05-15,Manchester Piccadilly,Weekly,Less,No milk,No,No,9,Keep doing what you're doing.
+CS0266,2026-05-19,Sheffield Station,Daily,More,Dairy,Yes,No,8,"Nothing, love it."
+CS0267,2026-05-13,Manchester Northern Quarter,Weekly,Same,Dairy,Yes,No,7,Bring back the meal deal.
+CS0268,2026-05-13,Manchester Northern Quarter,Monthly or less,Same,Dairy,No,No,7,"Nothing, love it."
+CS0269,2026-05-16,Manchester Piccadilly,2-4 times a week,Same,Dairy,No,No,5,"More staff at lunchtime, the queue is too long."
+CS0270,2026-05-25,York Stonegate,Weekly,Same,Dairy,No,No,8,More loyalty rewards.
+CS0271,2026-05-05,Manchester Piccadilly,Monthly or less,Same,Skimmed,No,Yes,9,Keep doing what you're doing.
+CS0272,2026-05-08,Manchester Piccadilly,2-4 times a week,Same,Skimmed,Yes,Yes,9,"More staff at lunchtime, the queue is too long."
+CS0273,2026-05-05,York Stonegate,Weekly,Less,Dairy,Yes,No,9,More loyalty rewards.
+CS0274,2026-05-05,Leeds Briggate,2-4 times a week,Same,Dairy,Yes,No,9,"Nothing, love it."
+CS0275,2026-05-20,Manchester Northern Quarter,2-4 times a week,Same,Dairy,No,Yes,9,Keep doing what you're doing.
+CS0276,2026-05-24,Harrogate James Street,2-4 times a week,More,Dairy,Yes,No,9,Keep doing what you're doing.
+CS0277,2026-05-08,Sheffield Division Street,2-4 times a week,Less,Oat,No,No,4,"Charging extra for oat milk feels unfair, Bean Social doesn't."
+CS0278,2026-05-22,Manchester Piccadilly,Daily,Less,Dairy,Yes,Yes,6,"I give up at lunch, the wait is too long."
+CS0279,2026-05-13,Manchester Northern Quarter,Weekly,Less,Dairy,Yes,No,8,"Fix the app, my stamps vanished."
+CS0280,2026-05-05,Manchester Northern Quarter,Daily,Less,No milk,Yes,No,7,"Fix the app, my stamps vanished. Faster service at lunch."
+CS0281,2026-05-17,York Stonegate,2-4 times a week,Same,Dairy,No,Yes,8,Lower prices.
+CS0282,2026-05-19,Nottingham Hockley,Weekly,Less,Dairy,Yes,No,9,"Fix the app, my stamps vanished."
+CS0283,2026-05-20,Sheffield Station,Weekly,Same,No milk,Yes,No,9,Keep doing what you're doing.
+CS0284,2026-05-14,Leeds Trinity,Monthly or less,Same,Dairy,Yes,No,9,Keep doing what you're doing.
+CS0285,2026-05-15,Hull Paragon,Weekly,More,Dairy,No,No,7,"Nothing, love it."
+CS0286,2026-05-19,Nottingham Hockley,2-4 times a week,Less,No milk,Yes,No,8,The new app crashes at checkout.
+CS0287,2026-05-08,Manchester Northern Quarter,2-4 times a week,Same,Oat,Yes,No,9,Keep doing what you're doing.
+CS0288,2026-05-08,Sheffield Station,Daily,Same,No milk,No,No,5,Lower prices.
+CS0289,2026-05-18,Leeds Briggate,2-4 times a week,Same,Dairy,No,No,7,Keep doing what you're doing.
+CS0290,2026-05-13,York Stonegate,2-4 times a week,Same,Skimmed,Yes,No,7,"Order ahead used to be great, now it's unreliable."
+CS0291,2026-05-07,Hull Paragon,2-4 times a week,Same,Dairy,No,No,9,Keep doing what you're doing.
+CS0292,2026-05-12,Leeds Trinity,Weekly,More,Dairy,Yes,Yes,7,Lower prices.
+CS0293,2026-05-11,Nottingham Hockley,Daily,Same,Dairy,No,No,6,A coffee subscription would be good.
+CS0294,2026-05-09,Manchester Northern Quarter,Daily,Same,Skimmed,Yes,No,8,More loyalty rewards.
+CS0295,2026-05-07,Sheffield Division Street,2-4 times a week,Less,Oat,Yes,Yes,6,Bring back the old app.
+CS0296,2026-05-10,Sheffield Division Street,Weekly,Less,Oat,Yes,No,7,"Charging extra for oat milk feels unfair, Bean Social doesn't. Fix the app, my stamps vanished."
+CS0297,2026-05-24,Manchester Spinningfields,Weekly,More,Dairy,Yes,Yes,10,Keep doing what you're doing.
+CS0298,2026-05-24,Sheffield Division Street,Monthly or less,More,Dairy,No,Yes,8,"Nothing, love it."
+CS0299,2026-05-07,Manchester Piccadilly,2-4 times a week,Less,Dairy,Yes,No,8,"I give up at lunch, the wait is too long."
+CS0300,2026-05-19,Leeds Briggate,Daily,More,No milk,No,No,5,More seating. A cheaper coffee option.
+CS0301,2026-05-12,Nottingham Hockley,Daily,Less,No milk,Yes,No,8,"Nothing, love it."
+CS0302,2026-05-13,Sheffield Division Street,Weekly,Same,Oat,No,Yes,6,"Charging extra for oat milk feels unfair, Bean Social doesn't."
+CS0303,2026-05-16,York Stonegate,2-4 times a week,Same,Dairy,No,No,8,"Nothing, love it."
+CS0304,2026-05-21,Leeds Trinity,2-4 times a week,Less,Oat,Yes,Yes,8,Drop the oat milk charge.
+CS0305,2026-05-22,York Stonegate,Weekly,Same,Dairy,Yes,No,8,Keep doing what you're doing.
+CS0306,2026-05-08,Leeds Briggate,Monthly or less,Same,Dairy,Yes,No,7,"Nothing, love it."
+CS0307,2026-05-06,York Stonegate,Monthly or less,Less,Oat,Yes,Yes,5,The new app crashes at checkout.
+CS0308,2026-05-09,Hull Paragon,Weekly,Same,Dairy,Yes,No,6,"Fix the app, my stamps vanished."
+CS0309,2026-05-12,York Stonegate,Daily,Same,No milk,No,No,9,Keep doing what you're doing.
+CS0310,2026-05-21,Sheffield Division Street,Weekly,Less,No milk,No,No,5,"Nothing, love it."
+CS0311,2026-05-19,Manchester Piccadilly,Weekly,Less,Oat,No,No,5,I go somewhere else for my oat latte now. Faster service at lunch.
+CS0312,2026-05-15,Leeds Briggate,Weekly,Same,Dairy,Yes,Yes,8,Keep doing what you're doing.
+CS0313,2026-05-07,Manchester Piccadilly,2-4 times a week,Same,No milk,No,No,8,More loyalty rewards.
+CS0314,2026-05-22,Sheffield Division Street,2-4 times a week,Less,Oat,Yes,Yes,6,Bring back the old app.
+CS0315,2026-05-13,Manchester Piccadilly,Weekly,Less,Oat,Yes,No,5,"Charging extra for oat milk feels unfair, Bean Social doesn't. The new app crashes at checkout."
+CS0316,2026-05-20,Manchester Spinningfields,2-4 times a week,Less,Dairy,Yes,Yes,2,"Fix the app, my stamps vanished. More vegan food."
+CS0317,2026-05-08,Sheffield Station,2-4 times a week,More,Skimmed,Yes,No,5,The new app crashes at checkout.
+CS0318,2026-05-16,Harrogate James Street,2-4 times a week,Same,Dairy,Yes,No,7,"Keep the lunch meal deal, it's great value."
+CS0319,2026-05-11,Nottingham Hockley,Daily,More,No milk,No,Yes,8,"Nothing, love it."
+CS0320,2026-05-10,Nottingham Hockley,2-4 times a week,Less,Oat,No,No,6,"Charging extra for oat milk feels unfair, Bean Social doesn't."
+CS0321,2026-05-11,Leeds Briggate,Daily,Same,Skimmed,Yes,Yes,5,More seating.
+CS0322,2026-05-17,Hull Paragon,2-4 times a week,Same,Oat,No,Yes,8,"Nothing, love it."
+CS0323,2026-05-16,Sheffield Station,2-4 times a week,Same,Dairy,Yes,Yes,7,"Nothing, love it."
+CS0324,2026-05-19,Manchester Piccadilly,Monthly or less,Less,Dairy,Yes,No,8,"More staff at lunchtime, the queue is too long."
+CS0325,2026-05-24,Nottingham Hockley,Daily,Same,Dairy,No,No,9,More loyalty rewards.
+CS0326,2026-05-12,Manchester Piccadilly,2-4 times a week,Same,Dairy,Yes,No,10,Keep doing what you're doing.
+CS0327,2026-05-19,Sheffield Division Street,2-4 times a week,Less,No milk,Yes,No,9,The new app crashes at checkout.
+CS0328,2026-05-05,Sheffield Uni Campus,Daily,Less,Dairy,No,No,6,Somewhere to sit at busy times.
+CS0329,2026-05-05,Leeds Briggate,Daily,Less,Dairy,Yes,No,4,A cheaper coffee option.
+CS0330,2026-05-24,Leeds Briggate,2-4 times a week,More,No milk,Yes,Yes,8,More loyalty rewards.
+CS0331,2026-05-07,Hull Paragon,2-4 times a week,Same,Oat,No,No,7,More loyalty rewards.
+CS0332,2026-05-09,Harrogate James Street,2-4 times a week,Same,Dairy,No,No,6,"Nothing, love it."
+CS0333,2026-05-13,Sheffield Uni Campus,Weekly,Same,Dairy,No,No,9,Keep doing what you're doing.
+CS0334,2026-05-05,Leeds Briggate,2-4 times a week,More,Dairy,No,Yes,8,Somewhere to sit at busy times.
+CS0335,2026-05-08,Sheffield Station,Weekly,Same,Oat,Yes,No,6,"Nothing, love it."
+CS0336,2026-05-22,Manchester Spinningfields,Daily,More,Dairy,No,No,3,"More staff at lunchtime, the queue is too long."
+CS0337,2026-05-20,Harrogate James Street,Daily,Same,Dairy,No,No,4,"Nothing, love it."
+CS0338,2026-05-20,Manchester Piccadilly,Monthly or less,Less,Dairy,No,Yes,6,"Keep the lunch meal deal, it's great value."
+CS0339,2026-05-05,Manchester Piccadilly,Weekly,Less,Dairy,Yes,No,6,Faster service at lunch.
+CS0340,2026-05-05,Sheffield Uni Campus,Monthly or less,More,No milk,No,No,5,More seating.
+CS0341,2026-05-19,Harrogate James Street,2-4 times a week,More,Dairy,No,Yes,9,More loyalty rewards.
+CS0342,2026-05-22,Manchester Northern Quarter,Weekly,Same,Dairy,No,No,8,Keep doing what you're doing.
+CS0343,2026-05-25,York Stonegate,2-4 times a week,Less,Dairy,Yes,No,4,The new app crashes at checkout. A cheaper coffee option.
+CS0344,2026-05-21,Leeds Trinity,Weekly,More,Dairy,Yes,No,9,"Nothing, love it."
+CS0345,2026-05-05,Manchester Piccadilly,2-4 times a week,Less,Oat,No,No,6,"I go somewhere else for my oat latte now. I give up at lunch, the wait is too long."
+CS0346,2026-05-24,Sheffield Division Street,Daily,Less,Oat,Yes,No,5,I go somewhere else for my oat latte now. Bring back the old app.
+CS0347,2026-05-06,Harrogate James Street,2-4 times a week,Same,Dairy,No,Yes,5,A coffee subscription would be good.
+CS0348,2026-05-11,Manchester Piccadilly,2-4 times a week,Less,Dairy,Yes,No,5,"More staff at lunchtime, the queue is too long."
+CS0349,2026-05-21,Manchester Northern Quarter,2-4 times a week,Less,Oat,Yes,Yes,7,I come in less since the oat surcharge.
+CS0350,2026-05-11,Leeds Briggate,Monthly or less,More,Dairy,No,Yes,9,"Nothing, love it."
+CS0351,2026-05-25,Sheffield Division Street,Monthly or less,Less,Oat,Yes,Yes,6,"Charging extra for oat milk feels unfair, Bean Social doesn't."
+CS0352,2026-05-06,Manchester Piccadilly,Daily,More,Dairy,No,No,7,"Nothing, love it."
+CS0353,2026-05-12,Sheffield Division Street,Weekly,Less,No milk,No,Yes,9,More loyalty rewards.
+CS0354,2026-05-14,Sheffield Station,Daily,Less,Dairy,Yes,No,7,The new app crashes at checkout.
+CS0355,2026-05-21,Manchester Piccadilly,2-4 times a week,More,Dairy,No,No,5,"More staff at lunchtime, the queue is too long."
+CS0356,2026-05-19,Sheffield Uni Campus,2-4 times a week,Same,Dairy,Yes,No,8,Keep doing what you're doing.
+CS0357,2026-05-24,Manchester Northern Quarter,2-4 times a week,Less,Oat,No,No,7,Drop the oat milk charge. Lower prices.
+CS0358,2026-05-22,Nottingham Hockley,Monthly or less,Same,Dairy,No,No,7,"Nothing, love it."
+CS0359,2026-05-12,Sheffield Division Street,Weekly,Same,Skimmed,Yes,No,10,"Nothing, love it."
+CS0360,2026-05-23,Leeds Trinity,Weekly,Same,Dairy,Yes,No,9,More loyalty rewards.
+CS0361,2026-05-21,Sheffield Uni Campus,2-4 times a week,Less,Skimmed,No,Yes,8,Somewhere to sit at busy times. Bring back the meal deal.
+CS0362,2026-05-20,Manchester Piccadilly,Monthly or less,Less,No milk,No,No,9,Faster service at lunch.
+CS0363,2026-05-14,York Stonegate,Monthly or less,More,Oat,No,Yes,6,Drop the oat milk charge.
+CS0364,2026-05-25,Manchester Piccadilly,Weekly,More,Dairy,No,Yes,8,"Nothing, love it."
+CS0365,2026-05-11,Leeds Briggate,Weekly,Same,Dairy,No,Yes,10,More loyalty rewards.
+CS0366,2026-05-23,Manchester Northern Quarter,2-4 times a week,Same,Oat,No,Yes,7,Keep doing what you're doing.
+CS0367,2026-05-06,Sheffield Division Street,2-4 times a week,Less,Dairy,Yes,No,8,"Order ahead used to be great, now it's unreliable. Keep the lunch meal deal, it's great value."
+CS0368,2026-05-14,Sheffield Uni Campus,Monthly or less,Less,Dairy,Yes,Yes,9,"Order ahead used to be great, now it's unreliable."
+CS0369,2026-05-24,York Stonegate,Daily,Same,Dairy,Yes,No,9,"Nothing, love it."
+CS0370,2026-05-09,Leeds Trinity,Weekly,More,Dairy,No,No,9,Keep doing what you're doing.
+CS0371,2026-05-19,York Stonegate,Daily,Same,No milk,No,Yes,7,"Nothing, love it."
+CS0372,2026-05-13,Hull Paragon,Weekly,Less,Dairy,No,Yes,6,Cleaner tables and toilets.
+CS0373,2026-05-08,Manchester Spinningfields,Weekly,Less,Dairy,No,No,8,"More staff at lunchtime, the queue is too long."
+CS0374,2026-05-13,Manchester Spinningfields,2-4 times a week,Same,Oat,Yes,No,4,I go somewhere else for my oat latte now. Faster service at lunch.
+CS0375,2026-05-21,Sheffield Division Street,Daily,More,Dairy,Yes,Yes,8,Keep doing what you're doing.
+CS0376,2026-05-22,Sheffield Station,Weekly,Same,Skimmed,Yes,Yes,6,"Order ahead used to be great, now it's unreliable."
+CS0377,2026-05-13,York Stonegate,2-4 times a week,More,No milk,No,No,9,Keep doing what you're doing.
+CS0378,2026-05-06,Nottingham Hockley,Weekly,Same,Oat,No,No,3,"Charging extra for oat milk feels unfair, Bean Social doesn't. Lower prices."
+CS0379,2026-05-05,Hull Paragon,Monthly or less,Less,Oat,No,No,6,Drop the oat milk charge.
+CS0380,2026-05-08,Sheffield Uni Campus,2-4 times a week,More,Dairy,No,No,10,Keep doing what you're doing.
+CS0381,2026-05-24,Nottingham Hockley,Monthly or less,Less,Oat,Yes,No,7,I come in less since the oat surcharge.
+CS0382,2026-05-05,Harrogate James Street,2-4 times a week,Less,Dairy,No,No,7,Keep doing what you're doing.
+CS0383,2026-05-21,Manchester Piccadilly,Weekly,Less,Dairy,No,No,8,Faster service at lunch.
+CS0384,2026-05-24,Hull Paragon,Weekly,Less,Oat,No,No,3,Drop the oat milk charge. A cheaper coffee option.
+CS0385,2026-05-22,Sheffield Uni Campus,2-4 times a week,Less,Dairy,Yes,No,5,Keep doing what you're doing.
+CS0386,2026-05-23,Sheffield Uni Campus,Weekly,Same,Dairy,No,Yes,10,"Nothing, love it."
+CS0387,2026-05-25,Sheffield Division Street,Daily,Less,Oat,No,No,9,Keep doing what you're doing.
+CS0388,2026-05-19,Sheffield Station,2-4 times a week,More,Oat,Yes,No,6,"Charging extra for oat milk feels unfair, Bean Social doesn't."
+CS0389,2026-05-21,Manchester Northern Quarter,2-4 times a week,Less,Dairy,Yes,Yes,8,The new app crashes at checkout.
+CS0390,2026-05-08,Sheffield Uni Campus,Weekly,Less,Dairy,Yes,Yes,8,The new app crashes at checkout.
+CS0391,2026-05-18,Nottingham Hockley,2-4 times a week,Less,Dairy,No,Yes,7,More loyalty rewards.
+CS0392,2026-05-08,Nottingham Hockley,Weekly,More,No milk,Yes,No,9,"Nothing, love it."
+CS0393,2026-05-18,Harrogate James Street,Weekly,Same,Dairy,Yes,No,7,"Nothing, love it."
+CS0394,2026-05-16,Leeds Trinity,Weekly,More,No milk,No,No,8,Keep doing what you're doing.
+CS0395,2026-05-06,Hull Paragon,2-4 times a week,Same,No milk,Yes,No,7,Cleaner tables and toilets.
+CS0396,2026-05-08,Sheffield Uni Campus,2-4 times a week,Less,Oat,Yes,No,8,I come in less since the oat surcharge.
+CS0397,2026-05-22,Nottingham Hockley,Monthly or less,Less,Dairy,Yes,No,4,Bring back the old app.
+CS0398,2026-05-06,Sheffield Station,Weekly,Same,Dairy,No,No,9,More loyalty rewards.
+CS0399,2026-05-25,Harrogate James Street,Daily,Less,Oat,Yes,No,5,Drop the oat milk charge.
+CS0400,2026-05-05,Manchester Northern Quarter,2-4 times a week,Same,Skimmed,No,No,7,"More staff at lunchtime, the queue is too long."
+CS0401,2026-05-11,York Stonegate,Weekly,Same,Oat,Yes,No,9,"Nothing, love it."
+CS0402,2026-05-07,Manchester Piccadilly,Monthly or less,Same,Oat,Yes,No,6,"Charging extra for oat milk feels unfair, Bean Social doesn't."
+CS0403,2026-05-20,Sheffield Station,Weekly,Less,Dairy,Yes,No,8,Keep doing what you're doing.
+CS0404,2026-05-07,Sheffield Uni Campus,Monthly or less,Less,Oat,Yes,No,4,The new app crashes at checkout. Lower prices.
+CS0405,2026-05-07,Sheffield Division Street,2-4 times a week,Less,Oat,No,Yes,3,I come in less since the oat surcharge.
+CS0406,2026-05-25,Manchester Northern Quarter,Monthly or less,More,Oat,No,No,8,More loyalty rewards.
+CS0407,2026-05-12,Sheffield Station,Monthly or less,Same,Skimmed,Yes,No,6,A coffee subscription would be good.
+CS0408,2026-05-06,Manchester Northern Quarter,2-4 times a week,More,Oat,No,Yes,10,More loyalty rewards.
+CS0409,2026-05-08,Harrogate James Street,Monthly or less,Same,Oat,Yes,Yes,7,Keep doing what you're doing.
+CS0410,2026-05-08,Hull Paragon,Weekly,More,Dairy,Yes,No,8,The store looks tired and messy.
+CS0411,2026-05-23,Sheffield Station,2-4 times a week,Less,Skimmed,Yes,Yes,7,Bring back the old app.
+CS0412,2026-05-10,York Stonegate,2-4 times a week,More,Dairy,Yes,Yes,8,"Nothing, love it."
+CS0413,2026-05-09,Manchester Piccadilly,2-4 times a week,Same,No milk,No,No,9,Keep doing what you're doing.
+CS0414,2026-05-20,Harrogate James Street,Weekly,Less,Oat,Yes,No,8,The new app crashes at checkout.
+CS0415,2026-05-11,Sheffield Division Street,2-4 times a week,More,Dairy,No,No,10,"Keep the lunch meal deal, it's great value."
+CS0416,2026-05-06,Leeds Trinity,Daily,More,No milk,Yes,No,10,More loyalty rewards.
+CS0417,2026-05-14,York Stonegate,Daily,Less,Skimmed,Yes,Yes,5,Bring back the old app.
+CS0418,2026-05-13,York Stonegate,Weekly,Same,No milk,No,No,10,More loyalty rewards.
+CS0419,2026-05-13,Leeds Briggate,Daily,Same,Dairy,Yes,No,5,The new app crashes at checkout.
+CS0420,2026-05-11,Sheffield Division Street,2-4 times a week,Same,Dairy,No,Yes,7,More loyalty rewards.
+CS0421,2026-05-17,Manchester Piccadilly,Daily,Less,Dairy,No,Yes,7,"I give up at lunch, the wait is too long. Keep the lunch meal deal, it's great value."
+CS0422,2026-05-25,Nottingham Hockley,Monthly or less,Less,Skimmed,Yes,No,7,"The new app crashes at checkout. Keep the lunch meal deal, it's great value."
+CS0423,2026-05-17,Manchester Piccadilly,2-4 times a week,Same,Dairy,Yes,No,7,"Nothing, love it."
+CS0424,2026-05-20,Leeds Trinity,2-4 times a week,Same,Dairy,Yes,No,4,More lunch options.
+CS0425,2026-05-11,Manchester Spinningfields,Monthly or less,Less,Skimmed,No,No,4,More lunch options. A coffee subscription would be good.
+CS0426,2026-05-19,Sheffield Division Street,Weekly,Same,No milk,No,No,8,Keep doing what you're doing.
+CS0427,2026-05-11,Sheffield Division Street,Monthly or less,More,Oat,No,No,6,"Nothing, love it."
+CS0428,2026-05-17,Harrogate James Street,Daily,Same,Oat,Yes,No,5,I go somewhere else for my oat latte now. A cheaper coffee option.
+CS0429,2026-05-11,Sheffield Uni Campus,2-4 times a week,Same,Oat,Yes,No,8,More loyalty rewards.
+CS0430,2026-05-23,Manchester Spinningfields,Weekly,Same,No milk,No,No,7,"Nothing, love it."
+CS0431,2026-05-09,York Stonegate,Daily,Same,Dairy,Yes,No,10,More loyalty rewards.
+CS0432,2026-05-25,Leeds Trinity,2-4 times a week,Less,Oat,Yes,No,9,"Nothing, love it."
+CS0433,2026-05-16,Manchester Spinningfields,Monthly or less,More,Skimmed,Yes,No,5,"The new app crashes at checkout. More staff at lunchtime, the queue is too long."
+CS0434,2026-05-15,Manchester Northern Quarter,Weekly,Less,Oat,Yes,No,10,"Charging extra for oat milk feels unfair, Bean Social doesn't."
+CS0435,2026-05-15,Leeds Trinity,Daily,Same,Oat,Yes,No,7,"Nothing, love it."
+CS0436,2026-05-16,Sheffield Division Street,Daily,Same,Dairy,No,No,8,A cheaper coffee option.
+CS0437,2026-05-12,Leeds Briggate,2-4 times a week,Less,Oat,No,No,8,Drop the oat milk charge. More seating.
+CS0438,2026-05-22,Nottingham Hockley,Daily,Less,Dairy,Yes,No,7,"Fix the app, my stamps vanished."
+CS0439,2026-05-19,Sheffield Division Street,Monthly or less,Same,Dairy,No,Yes,8,More loyalty rewards.
+CS0440,2026-05-11,Sheffield Station,Weekly,Less,Oat,No,Yes,10,More loyalty rewards.
+CS0441,2026-05-09,Sheffield Station,Weekly,More,Dairy,Yes,No,6,Keep doing what you're doing.
+CS0442,2026-05-07,Manchester Piccadilly,Weekly,Less,Dairy,No,No,6,"More staff at lunchtime, the queue is too long."
+CS0443,2026-05-18,Hull Paragon,Weekly,Same,Oat,No,Yes,6,Drop the oat milk charge. A cheaper coffee option.
+CS0444,2026-05-25,Manchester Piccadilly,Monthly or less,Same,Dairy,No,No,4,Faster service at lunch. A coffee subscription would be good.
+CS0445,2026-05-18,Leeds Briggate,2-4 times a week,More,No milk,Yes,Yes,8,"Nothing, love it."
+CS0446,2026-05-11,York Stonegate,Weekly,Same,Dairy,Yes,No,8,Lower prices.
+CS0447,2026-05-23,Manchester Spinningfields,2-4 times a week,Same,Oat,No,No,9,More loyalty rewards.
+CS0448,2026-05-06,Manchester Piccadilly,2-4 times a week,Less,Skimmed,Yes,Yes,5,Bring back the old app. A cheaper coffee option.
+CS0449,2026-05-24,Sheffield Station,Weekly,Same,Dairy,Yes,Yes,7,Bring back the old app. Lower prices.
+CS0450,2026-05-14,Sheffield Division Street,Weekly,Same,Dairy,No,Yes,10,Keep doing what you're doing.
+CS0451,2026-05-17,Harrogate James Street,Daily,Less,Oat,Yes,Yes,4,"Charging extra for oat milk feels unfair, Bean Social doesn't. Fix the app, my stamps vanished."
+CS0452,2026-05-10,Sheffield Station,Weekly,More,Oat,Yes,Yes,6,More loyalty rewards.
+CS0453,2026-05-22,Manchester Northern Quarter,2-4 times a week,Same,Dairy,Yes,Yes,8,More loyalty rewards.
+CS0454,2026-05-07,Manchester Northern Quarter,Monthly or less,Less,Oat,Yes,Yes,7,I come in less since the oat surcharge.
+CS0455,2026-05-24,Manchester Piccadilly,Daily,Less,Dairy,Yes,No,8,Faster service at lunch.
+CS0456,2026-05-06,Sheffield Uni Campus,Daily,Less,Oat,Yes,No,8,I come in less since the oat surcharge. Bring back the meal deal.
+CS0457,2026-05-08,Manchester Northern Quarter,2-4 times a week,Less,Oat,Yes,No,4,"Charging extra for oat milk feels unfair, Bean Social doesn't."
+CS0458,2026-05-22,Manchester Northern Quarter,2-4 times a week,Less,Oat,No,No,5,"Charging extra for oat milk feels unfair, Bean Social doesn't. I give up at lunch, the wait is too long."
+CS0459,2026-05-10,Sheffield Uni Campus,Monthly or less,Same,Dairy,Yes,No,6,More seating.
+CS0460,2026-05-05,Sheffield Division Street,Weekly,More,Dairy,Yes,Yes,9,"Nothing, love it."
+CS0461,2026-05-14,Sheffield Division Street,Weekly,Same,Dairy,No,No,9,Keep doing what you're doing.
+CS0462,2026-05-25,Manchester Spinningfields,Daily,Same,No milk,Yes,Yes,10,"Nothing, love it."
+CS0463,2026-05-09,Harrogate James Street,2-4 times a week,Same,Oat,No,No,7,Keep doing what you're doing.
+CS0464,2026-05-12,Sheffield Division Street,2-4 times a week,Same,No milk,No,Yes,7,Keep doing what you're doing.
+CS0465,2026-05-09,Harrogate James Street,Monthly or less,Same,No milk,Yes,No,7,More loyalty rewards.
+CS0466,2026-05-20,Manchester Spinningfields,Daily,Same,Dairy,Yes,No,7,Faster service at lunch.
+CS0467,2026-05-21,Manchester Spinningfields,Monthly or less,Less,No milk,Yes,Yes,6,The new app crashes at checkout.
+CS0468,2026-05-18,Sheffield Station,Daily,Same,Dairy,Yes,No,5,Bring back the old app.
+CS0469,2026-05-08,Sheffield Uni Campus,Daily,Same,No milk,Yes,No,8,Keep doing what you're doing.
+CS0470,2026-05-12,Leeds Briggate,2-4 times a week,Less,Oat,Yes,Yes,8,"Charging extra for oat milk feels unfair, Bean Social doesn't. Bring back the old app."
+CS0471,2026-05-05,Manchester Spinningfields,Monthly or less,Less,Dairy,No,No,5,"More staff at lunchtime, the queue is too long. A cheaper coffee option."
+CS0472,2026-05-17,Sheffield Division Street,Monthly or less,More,Dairy,No,Yes,9,"Nothing, love it."
+CS0473,2026-05-12,Leeds Briggate,Daily,More,Oat,Yes,Yes,7,More loyalty rewards.
+CS0474,2026-05-12,Leeds Briggate,Weekly,Same,Dairy,No,No,9,"Nothing, love it."
+CS0475,2026-05-13,Leeds Briggate,2-4 times a week,Same,Skimmed,No,No,7,Somewhere to sit at busy times.
+CS0476,2026-05-21,Manchester Piccadilly,Weekly,Less,Dairy,Yes,No,5,Faster service at lunch.
+CS0477,2026-05-05,Manchester Northern Quarter,Daily,Same,Dairy,Yes,No,7,Keep doing what you're doing.
+CS0478,2026-05-09,Sheffield Division Street,2-4 times a week,Same,Dairy,No,Yes,6,"Nothing, love it."
+CS0479,2026-05-25,Nottingham Hockley,Daily,Less,Oat,No,Yes,9,"Charging extra for oat milk feels unfair, Bean Social doesn't."
+CS0480,2026-05-07,Nottingham Hockley,2-4 times a week,Less,Oat,Yes,No,7,I go somewhere else for my oat latte now.
+CS0481,2026-05-18,Sheffield Division Street,2-4 times a week,Same,Dairy,No,Yes,10,"Nothing, love it."
+CS0482,2026-05-08,Leeds Briggate,2-4 times a week,Same,Dairy,Yes,Yes,8,More loyalty rewards.
+CS0483,2026-05-17,Manchester Spinningfields,Daily,Same,Oat,No,Yes,1,"More staff at lunchtime, the queue is too long. A cheaper coffee option."
+CS0484,2026-05-13,Nottingham Hockley,Weekly,More,Oat,No,No,6,I go somewhere else for my oat latte now.
+CS0485,2026-05-25,Leeds Briggate,Weekly,More,Dairy,Yes,No,6,More seating.
+CS0486,2026-05-14,Manchester Spinningfields,Monthly or less,Less,Dairy,No,Yes,9,"Nothing, love it."
+CS0487,2026-05-18,Manchester Northern Quarter,Weekly,Less,Dairy,Yes,Yes,10,"Fix the app, my stamps vanished."
+CS0488,2026-05-05,York Stonegate,Monthly or less,Less,Dairy,Yes,No,8,More loyalty rewards.
+CS0489,2026-05-24,York Stonegate,Monthly or less,Same,Dairy,No,Yes,6,"Nothing, love it."
+CS0490,2026-05-18,Manchester Spinningfields,Weekly,Less,No milk,Yes,No,5,"The new app crashes at checkout. I give up at lunch, the wait is too long."
+CS0491,2026-05-06,York Stonegate,Weekly,Same,Skimmed,Yes,Yes,7,More loyalty rewards.
+CS0492,2026-05-17,Manchester Piccadilly,Daily,More,Skimmed,Yes,No,9,Keep doing what you're doing.
+CS0493,2026-05-19,Nottingham Hockley,Monthly or less,Less,Oat,Yes,No,4,"Charging extra for oat milk feels unfair, Bean Social doesn't. The new app crashes at checkout."
+CS0494,2026-05-15,York Stonegate,Weekly,Less,Dairy,No,No,8,More loyalty rewards.
+CS0495,2026-05-10,Leeds Trinity,2-4 times a week,More,Dairy,No,Yes,7,More loyalty rewards.
+CS0496,2026-05-20,Manchester Spinningfields,2-4 times a week,Same,Oat,Yes,Yes,8,"Order ahead used to be great, now it's unreliable."
+CS0497,2026-05-21,Harrogate James Street,Monthly or less,Same,Oat,No,No,8,"Nothing, love it."
+CS0498,2026-05-18,Sheffield Uni Campus,Weekly,Less,Dairy,No,No,7,More loyalty rewards.
+CS0499,2026-05-10,Sheffield Uni Campus,Weekly,Same,Oat,Yes,No,7,"Charging extra for oat milk feels unfair, Bean Social doesn't."
+CS0500,2026-05-09,Manchester Piccadilly,Monthly or less,Less,Oat,Yes,Yes,4,"I come in less since the oat surcharge. More staff at lunchtime, the queue is too long."
+CS0501,2026-05-08,Sheffield Station,2-4 times a week,Less,Oat,No,Yes,6,I go somewhere else for my oat latte now.
+CS0502,2026-05-16,Sheffield Station,Daily,Less,No milk,Yes,No,10,Keep doing what you're doing.
+CS0503,2026-05-12,York Stonegate,Weekly,More,Dairy,No,No,4,Lower prices.
+CS0504,2026-05-10,Sheffield Uni Campus,Monthly or less,Same,Skimmed,Yes,Yes,5,Lower prices.
+CS0505,2026-05-07,Leeds Briggate,Monthly or less,Same,Skimmed,Yes,No,5,"Fix the app, my stamps vanished. Somewhere to sit at busy times."
+CS0506,2026-05-15,Manchester Northern Quarter,Daily,Same,Dairy,Yes,No,10,More loyalty rewards.
+CS0507,2026-05-16,Manchester Spinningfields,2-4 times a week,More,Dairy,No,No,8,Don't run out of sandwiches so early.
+CS0508,2026-05-06,Manchester Northern Quarter,Daily,Same,Oat,No,Yes,9,Keep doing what you're doing.
+CS0509,2026-05-16,Sheffield Uni Campus,Monthly or less,Less,Oat,Yes,Yes,8,"Order ahead used to be great, now it's unreliable."
+CS0510,2026-05-21,Leeds Trinity,2-4 times a week,More,Oat,No,Yes,8,More loyalty rewards.
+CS0511,2026-05-08,Manchester Northern Quarter,Weekly,More,No milk,Yes,No,3,"Keep the lunch meal deal, it's great value. A cheaper coffee option."
+CS0512,2026-05-22,Sheffield Division Street,Weekly,Same,Dairy,Yes,Yes,10,Keep doing what you're doing.
+CS0513,2026-05-10,Manchester Northern Quarter,2-4 times a week,Less,Skimmed,Yes,No,7,Keep doing what you're doing.
+CS0514,2026-05-17,Hull Paragon,2-4 times a week,Same,Oat,Yes,No,8,The store looks tired and messy.
+CS0515,2026-05-05,Manchester Northern Quarter,Monthly or less,Less,No milk,Yes,No,4,"Fix the app, my stamps vanished."
+CS0516,2026-05-09,Leeds Trinity,2-4 times a week,More,No milk,Yes,Yes,7,Keep doing what you're doing.
+CS0517,2026-05-18,Nottingham Hockley,Weekly,More,Dairy,Yes,Yes,8,"Fix the app, my stamps vanished."
+CS0518,2026-05-12,Sheffield Station,2-4 times a week,Less,No milk,Yes,No,9,"Order ahead used to be great, now it's unreliable."
+CS0519,2026-05-11,Sheffield Station,2-4 times a week,Same,No milk,Yes,No,7,Keep doing what you're doing.
+CS0520,2026-05-10,Manchester Northern Quarter,Weekly,Same,Oat,No,No,9,Keep doing what you're doing.
+CS0521,2026-05-09,Hull Paragon,Daily,Less,Oat,Yes,No,5,"Fix the app, my stamps vanished. Lower prices."
+CS0522,2026-05-20,Sheffield Station,Daily,More,No milk,No,No,7,More loyalty rewards.
+CS0523,2026-05-23,Sheffield Station,2-4 times a week,Same,Skimmed,Yes,No,10,"Nothing, love it."
+CS0524,2026-05-15,Sheffield Station,Weekly,Same,No milk,No,No,6,More loyalty rewards.
+CS0525,2026-05-11,York Stonegate,Monthly or less,Same,Oat,Yes,No,6,A cheaper coffee option.
+CS0526,2026-05-11,Leeds Trinity,2-4 times a week,Same,Dairy,No,Yes,7,Keep doing what you're doing.
+CS0527,2026-05-21,Nottingham Hockley,Monthly or less,More,Oat,Yes,No,2,"Charging extra for oat milk feels unfair, Bean Social doesn't. Fix the app, my stamps vanished."
+CS0528,2026-05-15,York Stonegate,Monthly or less,More,Oat,No,No,7,Keep doing what you're doing.
+CS0529,2026-05-24,Manchester Piccadilly,Daily,Less,Oat,Yes,Yes,5,"I go somewhere else for my oat latte now. Fix the app, my stamps vanished."
+CS0530,2026-05-13,York Stonegate,2-4 times a week,Less,Dairy,Yes,No,6,Keep doing what you're doing.
+CS0531,2026-05-21,Harrogate James Street,Weekly,Less,Oat,No,Yes,8,I go somewhere else for my oat latte now. Bring back the meal deal.
+CS0532,2026-05-19,Leeds Briggate,Monthly or less,More,Oat,No,Yes,6,Drop the oat milk charge.
+CS0533,2026-05-06,Leeds Briggate,2-4 times a week,Same,Dairy,No,No,9,Keep doing what you're doing.
+CS0534,2026-05-13,Sheffield Station,2-4 times a week,Same,Dairy,No,No,9,"Nothing, love it."
+CS0535,2026-05-20,Leeds Trinity,2-4 times a week,More,Dairy,No,No,7,"Nothing, love it."
+CS0536,2026-05-15,York Stonegate,2-4 times a week,Less,Oat,No,No,5,"Charging extra for oat milk feels unfair, Bean Social doesn't."
+CS0537,2026-05-10,Sheffield Station,2-4 times a week,Same,No milk,No,No,5,A coffee subscription would be good.
+CS0538,2026-05-15,Manchester Spinningfields,2-4 times a week,Less,Oat,Yes,No,4,I come in less since the oat surcharge. More lunch options.
+CS0539,2026-05-18,Manchester Northern Quarter,Daily,Less,Skimmed,Yes,Yes,10,Keep doing what you're doing.
+CS0540,2026-05-19,Sheffield Division Street,2-4 times a week,Same,Dairy,Yes,No,10,Keep doing what you're doing.
+CS0541,2026-05-23,Nottingham Hockley,2-4 times a week,Same,Oat,No,No,9,More loyalty rewards.
+CS0542,2026-05-13,Sheffield Division Street,Weekly,Same,Oat,Yes,No,5,A cheaper coffee option.
+CS0543,2026-05-14,Manchester Spinningfields,2-4 times a week,Same,Oat,Yes,No,10,"Nothing, love it."
+CS0544,2026-05-16,Nottingham Hockley,2-4 times a week,More,Skimmed,Yes,Yes,8,Keep doing what you're doing.
+CS0545,2026-05-20,Nottingham Hockley,Monthly or less,More,No milk,No,Yes,8,Bring back the meal deal.
+CS0546,2026-05-16,Manchester Northern Quarter,Weekly,Same,Oat,No,No,7,Drop the oat milk charge. Bring back the meal deal.
+CS0547,2026-05-23,Manchester Spinningfields,2-4 times a week,Less,Dairy,Yes,No,7,"The new app crashes at checkout. I give up at lunch, the wait is too long."
+CS0548,2026-05-24,Leeds Briggate,Weekly,Less,Oat,No,No,6,Drop the oat milk charge.
+CS0549,2026-05-18,Leeds Trinity,2-4 times a week,Same,Oat,Yes,No,9,"Nothing, love it."
+CS0550,2026-05-11,Hull Paragon,Monthly or less,Same,Oat,Yes,No,7,I go somewhere else for my oat latte now. The store looks tired and messy.
+CS0551,2026-05-16,Leeds Trinity,2-4 times a week,Less,Oat,Yes,No,4,The new app crashes at checkout. A coffee subscription would be good.
+CS0552,2026-05-12,York Stonegate,Daily,Less,Oat,No,No,8,"Charging extra for oat milk feels unfair, Bean Social doesn't."
+CS0553,2026-05-13,Manchester Northern Quarter,2-4 times a week,Less,Dairy,No,No,8,Keep doing what you're doing.
+CS0554,2026-05-15,Hull Paragon,2-4 times a week,Less,Dairy,No,No,6,"Nothing, love it."
+CS0555,2026-05-21,Hull Paragon,2-4 times a week,Same,Dairy,No,No,4,Cleaner tables and toilets.
+CS0556,2026-05-24,Hull Paragon,2-4 times a week,More,Dairy,No,No,6,Cleaner tables and toilets.
+CS0557,2026-05-11,Leeds Briggate,Weekly,Same,Oat,No,No,5,I go somewhere else for my oat latte now. Somewhere to sit at busy times.
+CS0558,2026-05-12,Hull Paragon,Weekly,Same,Dairy,No,No,10,Keep doing what you're doing.
+CS0559,2026-05-08,York Stonegate,Weekly,More,Skimmed,Yes,Yes,9,Keep doing what you're doing.
+CS0560,2026-05-18,Sheffield Station,Weekly,Less,Oat,Yes,No,9,"Order ahead used to be great, now it's unreliable."
+CS0561,2026-05-06,York Stonegate,Weekly,Less,Oat,Yes,No,7,"Charging extra for oat milk feels unfair, Bean Social doesn't."
+CS0562,2026-05-20,Manchester Northern Quarter,Weekly,Same,Oat,Yes,No,5,"Charging extra for oat milk feels unfair, Bean Social doesn't. Bring back the old app."
+CS0563,2026-05-16,York Stonegate,Weekly,More,Skimmed,Yes,No,6,More loyalty rewards.
+CS0564,2026-05-23,Manchester Spinningfields,2-4 times a week,Less,Oat,No,Yes,7,I come in less since the oat surcharge.
+CS0565,2026-05-11,Hull Paragon,Weekly,Same,Dairy,Yes,No,3,The store looks tired and messy.
+CS0566,2026-05-22,Manchester Spinningfields,Weekly,Less,Oat,Yes,No,6,"I go somewhere else for my oat latte now. I give up at lunch, the wait is too long."
+CS0567,2026-05-11,York Stonegate,Monthly or less,Same,Skimmed,No,Yes,8,More loyalty rewards.
+CS0568,2026-05-13,Manchester Piccadilly,Monthly or less,Same,No milk,No,No,7,Keep doing what you're doing.
+CS0569,2026-05-12,Leeds Trinity,Daily,Same,Oat,No,No,8,"Nothing, love it."
+CS0570,2026-05-12,Leeds Briggate,Weekly,Same,Dairy,No,No,8,"Nothing, love it."
+CS0571,2026-05-07,Harrogate James Street,Daily,Same,Dairy,Yes,Yes,8,More loyalty rewards.
+CS0572,2026-05-05,Manchester Piccadilly,2-4 times a week,Less,No milk,Yes,No,4,The new app crashes at checkout. Lower prices.
+CS0573,2026-05-08,Harrogate James Street,2-4 times a week,Same,No milk,No,No,7,Lower prices.
+CS0574,2026-05-08,York Stonegate,2-4 times a week,Same,Dairy,Yes,No,5,More loyalty rewards.
+CS0575,2026-05-25,Manchester Piccadilly,2-4 times a week,More,Skimmed,Yes,No,7,Keep doing what you're doing.
+CS0576,2026-05-11,Manchester Northern Quarter,Weekly,Less,Dairy,Yes,Yes,5,"The new app crashes at checkout. More staff at lunchtime, the queue is too long."
+CS0577,2026-05-16,Leeds Briggate,2-4 times a week,Same,Oat,No,No,7,Keep doing what you're doing.
+CS0578,2026-05-09,Manchester Piccadilly,2-4 times a week,Same,No milk,Yes,Yes,7,"Bring back the old app. More staff at lunchtime, the queue is too long."
+CS0579,2026-05-16,Leeds Briggate,Monthly or less,More,Dairy,No,No,9,"Nothing, love it."
+CS0580,2026-05-06,Leeds Trinity,Weekly,Same,Dairy,Yes,No,7,More loyalty rewards.
+CS0581,2026-05-24,Manchester Piccadilly,Weekly,More,Skimmed,Yes,No,7,Lower prices.
+CS0582,2026-05-14,Manchester Spinningfields,2-4 times a week,Less,Skimmed,Yes,No,6,The new app crashes at checkout.
+CS0583,2026-05-15,Harrogate James Street,Monthly or less,Same,No milk,Yes,Yes,8,"Nothing, love it."
+CS0584,2026-05-19,Leeds Briggate,Daily,Less,Oat,Yes,No,4,I come in less since the oat surcharge. Somewhere to sit at busy times.
+CS0585,2026-05-22,Nottingham Hockley,2-4 times a week,Same,Dairy,No,Yes,7,A coffee subscription would be good.
+CS0586,2026-05-17,York Stonegate,Weekly,Less,Oat,No,No,4,Drop the oat milk charge. A cheaper coffee option.
+CS0587,2026-05-25,Nottingham Hockley,Monthly or less,Same,No milk,No,No,8,"Nothing, love it."
+CS0588,2026-05-08,Sheffield Station,2-4 times a week,More,Dairy,No,Yes,7,Keep doing what you're doing.
+CS0589,2026-05-22,Manchester Piccadilly,2-4 times a week,Same,No milk,No,No,9,Keep doing what you're doing.
+CS0590,2026-05-16,Harrogate James Street,Daily,More,Oat,Yes,Yes,9,More loyalty rewards.
+CS0591,2026-05-09,Leeds Briggate,Weekly,Less,Oat,Yes,Yes,3,I come in less since the oat surcharge. More seating.
+CS0592,2026-05-25,Leeds Briggate,2-4 times a week,Same,Dairy,No,No,8,More loyalty rewards.
+CS0593,2026-05-09,Nottingham Hockley,Weekly,Same,Oat,Yes,No,6,I go somewhere else for my oat latte now. Bring back the meal deal.
+CS0594,2026-05-18,Manchester Spinningfields,2-4 times a week,Less,Dairy,Yes,No,7,"More staff at lunchtime, the queue is too long."
+CS0595,2026-05-24,Leeds Trinity,Daily,Same,Dairy,No,No,8,More loyalty rewards.
+CS0596,2026-05-16,Nottingham Hockley,2-4 times a week,Same,Dairy,No,No,9,More loyalty rewards.
+CS0597,2026-05-09,Harrogate James Street,2-4 times a week,Same,Dairy,Yes,No,5,Lower prices.
+CS0598,2026-05-08,Manchester Piccadilly,Monthly or less,Less,Skimmed,Yes,No,6,"More staff at lunchtime, the queue is too long."
+CS0599,2026-05-11,York Stonegate,Daily,Same,Skimmed,Yes,Yes,8,Keep doing what you're doing.
+CS0600,2026-05-05,Manchester Spinningfields,Monthly or less,Same,Oat,Yes,No,6,Keep doing what you're doing.
+CS0601,2026-05-23,Manchester Northern Quarter,Weekly,Same,Dairy,Yes,Yes,9,"Nothing, love it."
+CS0602,2026-05-08,Manchester Northern Quarter,Monthly or less,Same,Dairy,Yes,No,6,Keep doing what you're doing.
+CS0603,2026-05-09,Harrogate James Street,Daily,More,Dairy,No,No,10,Bring back the meal deal. A coffee subscription would be good.
+CS0604,2026-05-07,Manchester Piccadilly,2-4 times a week,Less,Dairy,Yes,Yes,5,"More staff at lunchtime, the queue is too long. Keep the lunch meal deal, it's great value."
+CS0605,2026-05-24,Nottingham Hockley,2-4 times a week,Less,Oat,Yes,Yes,6,I come in less since the oat surcharge.
+CS0606,2026-05-24,Hull Paragon,Weekly,Same,Oat,Yes,No,7,Drop the oat milk charge.
+CS0607,2026-05-25,Leeds Briggate,Monthly or less,Less,Dairy,No,No,10,Keep doing what you're doing.
+CS0608,2026-05-21,Nottingham Hockley,Weekly,Less,Dairy,Yes,No,7,The new app crashes at checkout.
+CS0609,2026-05-18,Hull Paragon,Monthly or less,Less,Oat,Yes,No,6,I go somewhere else for my oat latte now. Bring back the old app.
+CS0610,2026-05-22,Manchester Northern Quarter,2-4 times a week,Same,Dairy,No,No,6,"I give up at lunch, the wait is too long. Bring back the meal deal."
+CS0611,2026-05-16,Sheffield Station,Daily,Less,Dairy,Yes,No,4,A cheaper coffee option.
+CS0612,2026-05-19,Manchester Northern Quarter,Monthly or less,Less,Oat,No,No,3,"Charging extra for oat milk feels unfair, Bean Social doesn't. Lower prices."
+CS0613,2026-05-16,Hull Paragon,Weekly,More,No milk,No,No,4,Cleaner tables and toilets.
+CS0614,2026-05-11,Leeds Briggate,Weekly,Less,Dairy,No,No,6,Lower prices.
+CS0615,2026-05-06,Leeds Briggate,2-4 times a week,More,Oat,Yes,No,8,Keep doing what you're doing.
+CS0616,2026-05-05,Sheffield Division Street,Weekly,More,Dairy,No,Yes,10,More loyalty rewards.
+CS0617,2026-05-09,Leeds Trinity,Daily,Less,Dairy,Yes,No,9,Bring back the old app.
+CS0618,2026-05-20,Manchester Piccadilly,Monthly or less,Less,Oat,Yes,No,9,Bring back the old app.
+CS0619,2026-05-08,Harrogate James Street,2-4 times a week,More,Skimmed,Yes,No,7,"Nothing, love it."
+CS0620,2026-05-22,Manchester Piccadilly,2-4 times a week,Less,Oat,No,No,5,Drop the oat milk charge.
+CS0621,2026-05-17,Manchester Northern Quarter,Monthly or less,Less,Dairy,No,No,6,"More staff at lunchtime, the queue is too long."
+CS0622,2026-05-09,Leeds Briggate,Monthly or less,Less,Oat,No,No,5,I go somewhere else for my oat latte now.
+CS0623,2026-05-17,Manchester Spinningfields,2-4 times a week,Less,Dairy,No,Yes,4,"More staff at lunchtime, the queue is too long. Lower prices."
+CS0624,2026-05-05,Leeds Trinity,2-4 times a week,Same,Oat,Yes,Yes,9,"Nothing, love it."
+CS0625,2026-05-18,Manchester Spinningfields,Daily,More,Oat,Yes,Yes,7,"Nothing, love it."
+CS0626,2026-05-15,Sheffield Station,Weekly,Less,Oat,No,No,4,I come in less since the oat surcharge.
+CS0627,2026-05-20,Sheffield Division Street,2-4 times a week,More,Oat,Yes,No,9,"Nothing, love it."
+CS0628,2026-05-08,Sheffield Uni Campus,2-4 times a week,Same,No milk,Yes,No,9,"Fix the app, my stamps vanished."
+CS0629,2026-05-16,Harrogate James Street,Weekly,Same,Dairy,No,Yes,9,More loyalty rewards.
+CS0630,2026-05-20,Leeds Trinity,Weekly,Same,Oat,Yes,Yes,5,"I go somewhere else for my oat latte now. Fix the app, my stamps vanished."
+CS0631,2026-05-12,Sheffield Division Street,Monthly or less,Same,Skimmed,No,No,9,More loyalty rewards.
+CS0632,2026-05-16,Manchester Piccadilly,2-4 times a week,Same,Dairy,Yes,No,6,"Fix the app, my stamps vanished."
+CS0633,2026-05-20,York Stonegate,Monthly or less,Less,Oat,No,No,6,Drop the oat milk charge.
+CS0634,2026-05-18,Sheffield Uni Campus,Weekly,Same,Dairy,No,No,7,"Keep the lunch meal deal, it's great value. Lower prices."
+CS0635,2026-05-14,York Stonegate,2-4 times a week,Less,Oat,Yes,No,8,Drop the oat milk charge.
+CS0636,2026-05-23,Leeds Briggate,2-4 times a week,Less,Dairy,Yes,Yes,6,"Order ahead used to be great, now it's unreliable."
+CS0637,2026-05-16,Nottingham Hockley,Weekly,Less,Dairy,No,No,10,"Nothing, love it."
+CS0638,2026-05-22,Leeds Briggate,2-4 times a week,Same,Dairy,No,No,9,More loyalty rewards.
+CS0639,2026-05-23,Sheffield Division Street,2-4 times a week,Same,Dairy,No,No,5,Keep doing what you're doing.
+CS0640,2026-05-10,Sheffield Uni Campus,Weekly,Less,Oat,Yes,Yes,9,Bring back the meal deal.
+CS0641,2026-05-14,Nottingham Hockley,Weekly,Less,Oat,Yes,No,7,Drop the oat milk charge.
+CS0642,2026-05-16,Manchester Northern Quarter,Monthly or less,More,Dairy,No,Yes,10,"Keep the lunch meal deal, it's great value."
+CS0643,2026-05-15,Sheffield Station,Weekly,Less,Oat,Yes,No,7,Drop the oat milk charge.
+CS0644,2026-05-07,Leeds Trinity,Daily,Same,Skimmed,No,No,10,Keep doing what you're doing.
+CS0645,2026-05-17,York Stonegate,2-4 times a week,Less,No milk,Yes,No,8,More loyalty rewards.
+CS0646,2026-05-20,Sheffield Division Street,Daily,More,Oat,No,Yes,7,More loyalty rewards.
+CS0647,2026-05-10,Manchester Spinningfields,Weekly,Same,No milk,No,No,8,"Nothing, love it."
+CS0648,2026-05-18,Harrogate James Street,2-4 times a week,Same,Skimmed,Yes,No,6,Keep doing what you're doing.
+CS0649,2026-05-25,Manchester Piccadilly,2-4 times a week,Same,No milk,Yes,No,9,Bring back the meal deal.
+CS0650,2026-05-17,Sheffield Uni Campus,Weekly,More,Skimmed,No,Yes,10,"Nothing, love it."

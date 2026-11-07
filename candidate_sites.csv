@@ -1,0 +1,8 @@
+site_id,site_name,city,location_type,sqft,quoted_rent_gbp_month,daily_footfall_street,office_workers_500m,students_1km,median_household_income_gbp,competitor_cafes_500m,area_vibrancy_index_10,est_fitout_gbp
+CS1,Leeds Headingley,Leeds,High street,1350,7600,26000,3800,17500,31200,9,7.8,320000
+CS2,Sheffield Kelham Island,Sheffield,High street,1600,8200,14500,5200,4100,33900,5,8.3,390000
+CS3,Manchester Oxford Road,Manchester,Campus,900,9800,52000,6100,31000,26800,11,7.2,240000
+CS4,York Railway Station,York,Transit,600,12900,39000,900,600,34500,2,6.6,180000
+CS5,Liverpool Bold Street,Liverpool,High street,1550,11200,33000,6900,9800,30700,16,8.0,410000
+CS6,Wakefield Trinity Walk,Wakefield,Shopping centre,1400,6900,18500,1400,1100,27900,4,5.4,300000
+CS7,Leeds Wellington Place,Leeds,Office district,1450,11800,9500,18200,1100,40300,6,6.5,350000

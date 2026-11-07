@@ -1,0 +1,13 @@
+store_id,store_name,city,format,location_type,opened_date,sqft,seats,rent_gbp_month,store_manager,refit_year
+S01,Sheffield Division Street,Sheffield,Standard,High street,2018-04-12,1450,38,6200,Priya Natt,2023.0
+S02,Sheffield Station,Sheffield,Kiosk,Transit,2020-02-03,520,8,7400,Tom Hollis,2021.0
+S03,Leeds Briggate,Leeds,Flagship,High street,2017-09-01,2100,56,11800,Grace Okafor,2024.0
+S04,York Stonegate,York,Standard,Tourist,2019-06-15,1300,34,7900,Dan Whitby,
+S05,Manchester Northern Quarter,Manchester,Standard,High street,2019-11-20,1600,44,9600,Leah Moran,2022.0
+S06,Manchester Spinningfields,Manchester,Standard,Office district,2021-03-08,1400,30,12400,Sam Kowalski,
+S07,Manchester Piccadilly,Manchester,Flagship,Transit,2022-05-16,1900,40,30500,Ollie Brent,
+S08,Nottingham Hockley,Nottingham,Standard,High street,2020-08-24,1350,36,6800,Fatima Rahman,2021.0
+S09,Harrogate James Street,Harrogate,Standard,Affluent town,2021-10-01,1500,42,7200,Hannah Leigh,
+S10,Hull Paragon,Hull,Standard,High street,2022-09-12,1400,36,5400,Marcus Dyer,
+S11,Sheffield Uni Campus,Sheffield,Kiosk,Campus,2023-01-16,700,20,4800,Jess Arkwright,
+S12,Leeds Trinity,Leeds,Standard,High street,2025-09-15,1500,40,10900,Kieran Yau,
