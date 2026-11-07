@@ -8,21 +8,17 @@ st.set_page_config(page_title="Grind and Crumb Hub", layout="wide")
 st.title("Grind and Crumb - Multi-Dataset AI Intelligence Hub")
 
 
-# Brute-force loader: guarantees it will never crash on encoding errors
-def brute_force_read_csv(file_path):
-  encodings = ["utf-8", "cp1252", "latin-1", "iso-8859-1", "utf-16"]
-
-  # Try standard encodings first
-  for enc in encodings:
-    try:
-      return pd.read_csv(file_path, low_memory=False, encoding=enc)
-    except Exception:
-      continue
-
-  # Ultimate fallback: read raw bytes and force decode with latin-1 (never fails)
+# 100% Hackathon-proof loader: bypasses UTF-8 checks completely
+def load_csv_safely(file_path):
+  # Read raw bytes — ignores any file encoding flags
   with open(file_path, "rb") as f:
-    raw_data = f.read()
-  text_data = raw_data.decode("latin-1")
+    raw_bytes = f.read()
+
+  # latin-1 maps every single byte (0x00-0xFF) losslessly to a character.
+  # This guarantees it will NEVER throw a UnicodeDecodeError.
+  text_data = raw_bytes.decode("latin-1")
+
+  # Feed the safe text stream into pandas
   return pd.read_csv(io.StringIO(text_data), low_memory=False)
 
 
@@ -37,7 +33,7 @@ else:
   dataframes = {}
   for file in selected:
     try:
-      dataframes[file] = brute_force_read_csv(file)
+      dataframes[file] = load_csv_safely(file)
     except Exception as e:
       st.sidebar.error(f"Error loading {file}: {e}")
 
