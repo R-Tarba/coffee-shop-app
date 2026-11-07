@@ -1,10 +1,30 @@
 import glob
+import io
 from google import genai
 import pandas as pd
 import streamlit as st
 
 st.set_page_config(page_title="Grind and Crumb Hub", layout="wide")
 st.title("Grind and Crumb - Multi-Dataset AI Intelligence Hub")
+
+
+# Brute-force loader: guarantees it will never crash on encoding errors
+def brute_force_read_csv(file_path):
+  encodings = ["utf-8", "cp1252", "latin-1", "iso-8859-1", "utf-16"]
+
+  # Try standard encodings first
+  for enc in encodings:
+    try:
+      return pd.read_csv(file_path, low_memory=False, encoding=enc)
+    except Exception:
+      continue
+
+  # Ultimate fallback: read raw bytes and force decode with latin-1 (never fails)
+  with open(file_path, "rb") as f:
+    raw_data = f.read()
+  text_data = raw_data.decode("latin-1")
+  return pd.read_csv(io.StringIO(text_data), low_memory=False)
+
 
 csv_files = glob.glob("*.csv")
 if not csv_files:
@@ -17,13 +37,7 @@ else:
   dataframes = {}
   for file in selected:
     try:
-      # Try UTF-8 first; if it fails due to special characters, fallback to latin-1
-      try:
-        dataframes[file] = pd.read_csv(file, low_memory=False, encoding="utf-8")
-      except UnicodeDecodeError:
-        dataframes[file] = pd.read_csv(
-            file, low_memory=False, encoding="latin-1"
-        )
+      dataframes[file] = brute_force_read_csv(file)
     except Exception as e:
       st.sidebar.error(f"Error loading {file}: {e}")
 
