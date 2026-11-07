@@ -9,13 +9,11 @@ st.set_page_config(page_title="Grind & Crumb - Executive Command Center", layout
 st.title("☕ Grind & Crumb - Multi-Dataset AI Intelligence Hub")
 st.markdown("### Powered by Streamlit & Gemini 2.5 Flash")
 
-# Automatically discover all local CSV files
 csv_files = glob.glob("*.csv")
 
 if not csv_files:
     st.error("⚠️ No CSV files found in the project root directory!")
 else:
-    # Define your exact core hackathon datasets as defaults
     target_defaults = [
         "starter_store_monthly_pnl.csv",
         "stores.csv",
@@ -25,11 +23,8 @@ else:
         "waste_log.csv",
         "store_costs_monthly.csv"
     ]
-    
-    # Filter defaults to only include ones actually present in the folder
     valid_defaults = [f for f in target_defaults if f in csv_files]
 
-    # Sidebar for Dataset Management
     st.sidebar.header("📁 Core Datasets")
     selected_files = st.sidebar.multiselect(
         "Select datasets to include in analysis:",
@@ -37,7 +32,6 @@ else:
         default=valid_defaults
     )
     
-    # Load selected dataframes into memory
     dataframes = {}
     for file in selected_files:
         try:
@@ -46,7 +40,6 @@ else:
         except Exception as e:
             st.sidebar.error(f"Error loading {file}: {e}")
 
-    # Main Layout Tabs
     tab1, tab2 = st.tabs(["📊 Dataset Previews", "🤖 Gemini AI Multi-Data Analyst"])
     
     with tab1:
@@ -75,7 +68,6 @@ else:
                 try:
                     client = genai.Client(api_key=gemini_api_key)
                     
-                    # Build structured context summarizing the selected core files
                     context_payload = "Here is summary data from the selected Grind & Crumb datasets:\n\n"
                     for fname, df in dataframes.items():
                         context_payload += f"=== FILE: {fname} (Columns: {list(df.columns)}) ===\n"
