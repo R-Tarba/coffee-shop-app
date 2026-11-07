@@ -1,4 +1,4 @@
-﻿import glob
+import glob
 import os
 import re
 
@@ -10,7 +10,11 @@ try:
 except ImportError:  # shown as a friendly message in the AI tab
   genai = None
 
+<<<<<<< HEAD
+MODEL = "gemini-3.8-flash"  
+=======
 MODEL = "gemini-3.8-flash"
+>>>>>>> 9d903a50f9333df1255398d09a0fa28682f0a060
 
 st.set_page_config(page_title="Grind and Crumb Hub", layout="wide")
 st.title("Grind and Crumb - AI Data Hub")
