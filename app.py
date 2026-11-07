@@ -17,7 +17,7 @@ MODEL = "gemini-3.6-flash"
 
 st.set_page_config(page_title="Grind and Crumb Hub", layout="wide")
 st.title("Grind and Crumb - AI Data Hub")
-st.caption("v5 - dashboard, compare, AI chat")  # remove once you've seen it
+st.caption("v6 - TESTING AUTO REFRESH")
 
 # Strict encodings first so text decodes correctly; latin-1 is the last
 # resort because it maps every byte and can never raise UnicodeDecodeError.
