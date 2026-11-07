@@ -10,7 +10,7 @@ try:
 except ImportError:  # shown as a friendly message in the AI tab
   genai = None
 
-MODEL = "gemini-2.5-flash"
+MODEL = "gemini-3.8-flash"
 
 st.set_page_config(page_title="Grind and Crumb Hub", layout="wide")
 st.title("Grind and Crumb - AI Data Hub")
