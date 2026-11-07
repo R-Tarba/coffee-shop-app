@@ -10,11 +10,11 @@ try:
 except ImportError:  # shown as a friendly message in the AI tab
   genai = None
 
-MODEL = "gemini-3.8-flash"  
+MODEL = "gemini-3.6-flash-lite"  
 
 st.set_page_config(page_title="Grind and Crumb Hub", layout="wide")
 st.title("Grind and Crumb - AI Data Hub")
-st.caption("v4 - dashboard + AI chat")  # remove once you've seen it
+st.caption("v4 - dashboard + AI chat")  
 
 # Strict encodings first so text decodes correctly; latin-1 is the last
 # resort because it maps every byte and can never raise UnicodeDecodeError.
@@ -247,7 +247,7 @@ with tab_chat:
         st.write(question)
       with st.chat_message("assistant"):
         try:
-          client = genai.Client(api_key=api_key)
+          client = genai.Client(api_key=api_key, http_options={"timeout": 60000})
           with st.spinner("Analysing your data..."):
             text, code, result = answer_question(client, dataframes, question)
           st.write(text)
