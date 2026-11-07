@@ -1,102 +1,103 @@
 import streamlit as st
 import pandas as pd
-import plotly.express as px
+import glob
+import os
+from google import genai
 
-st.set_page_config(page_title="Grind & Crumb - Ops Command Center", layout="wide")
+st.set_page_config(page_title="Grind & Crumb - Executive Command Center", layout="wide")
 
-st.title("☕ Grind & Crumb - Executive & Ops Command Center")
-st.markdown("### Real-time visibility into store performance, delivery margins, and operational leaks.")
+st.title("☕ Grind & Crumb - Multi-Dataset AI Intelligence Hub")
+st.markdown("### Powered by Streamlit & Gemini 2.5 Flash")
 
-# Sidebar navigation
-menu = st.sidebar.radio("Navigate Tool", ["Store Profitability & Leases", "Delivery Margin Calculator", "App v3.0 & Oat Milk Impact", "£1.5m Allocation Model"])
+# Automatically discover all local CSV files
+csv_files = glob.glob("*.csv")
 
-# Data setup based on hackathon findings
-store_data = pd.DataFrame({
-    "Store": ["York", "Sheffield Div St", "Northern Qtr", "Hull Paragon", "Trinity (Leeds)", "Piccadilly (Mcr)"],
-    "Annual Sales (£)": [890000, 750000, 720000, 610000, 500000, 1100000],
-    "Annual Profit (£)": [194000, 159000, 153000, 50000, 27000, -48000],
-    "Margin %": [21.8, 21.2, 21.25, 8.2, 5.4, -4.36],
-    "Rent & Rates (£)": [85000, 70000, 75000, 60000, 95000, 446000],
-    "Status": ["Top Performer", "Healthy", "Healthy", "High Waste (20.6%)", "Cannibalising Briggate", "CRITICAL: Excessive Lease"]
-})
-
-if menu == "Store Profitability & Leases":
-    st.header("🏪 Store-by-Store Health Dashboard")
-    st.info("Manchester Piccadilly generates the highest sales (£1.1m) but loses £48k/yr due to a £446k rent/rates burden.")
+if not csv_files:
+    st.error("⚠️ No CSV files found in the project root directory!")
+else:
+    # Define your exact core hackathon datasets as defaults
+    target_defaults = [
+        "starter_store_monthly_pnl.csv",
+        "stores.csv",
+        "footfall.csv",
+        "weather.csv",
+        "staff_rota_weekly.csv",
+        "waste_log.csv",
+        "store_costs_monthly.csv"
+    ]
     
-    col1, col2 = st.columns([2, 1])
-    
-    with col1:
-        fig = px.bar(store_data, x="Store", y="Annual Profit (£)", color="Margin %", title="Annual Profit by Store (£)")
-        st.plotly_chart(fig, use_container_width=True)
-        
-    with col2:
-        selected_store = st.selectbox("Select Store for Deep Dive:", store_data["Store"])
-        details = store_data[store_data["Store"] == selected_store].iloc[0]
-        st.metric("Annual Sales", f"£{details['Annual Sales (£)']:,}")
-        st.metric("Net Profit", f"£{details['Annual Profit (£)']:,}")
-        st.metric("Rent & Rates Burden", f"£{details['Rent & Rates (£)']:,}")
-        st.warning(f"Status: {details['Status']}")
+    # Filter defaults to only include ones actually present in the folder
+    valid_defaults = [f for f in target_defaults if f in csv_files]
 
-elif menu == "Delivery Margin Calculator":
-    st.header("🚚 Delivery Platform Unit Economics Calculator")
-    st.markdown("Calculate true profit per order after platform commissions, packaging, and **4 minutes of packing labor**.")
+    # Sidebar for Dataset Management
+    st.sidebar.header("📁 Core Datasets")
+    selected_files = st.sidebar.multiselect(
+        "Select datasets to include in analysis:",
+        options=csv_files,
+        default=valid_defaults
+    )
     
-    col1, col2 = st.columns(2)
-    with col1:
-        order_val = st.number_input("Basket Value (£)", value=7.50, step=0.50)
-        channel = st.selectbox("Channel", ["In-Store / Owned App", "Dashly (Delivery)", "RushEats (Delivery)"])
-        hourly_wage = st.number_input("Hourly Staff Wage (£)", value=11.44)
-        
-    # Calculations based on brief rules
-    labor_cost_per_order = (hourly_wage * 1.13) * (4 / 60) if "Delivery" in channel else 0.0
-    comm_rate = 0.30 if "RushEats" in channel else (0.25 if "Dashly" in channel else 0.0)
-    comm_fee = order_val * comm_rate
-    packaging_cost = 0.45 if "Delivery" in channel else 0.10
-    cogs = order_val * 0.25 # 25% food cost
+    # Load selected dataframes into memory
+    dataframes = {}
+    for file in selected_files:
+        try:
+            df = pd.read_csv(file, low_memory=False)
+            dataframes[file] = df
+        except Exception as e:
+            st.sidebar.error(f"Error loading {file}: {e}")
+
+    # Main Layout Tabs
+    tab1, tab2 = st.tabs(["📊 Dataset Previews", "🤖 Gemini AI Multi-Data Analyst"])
     
-    net_profit = order_val - cogs - comm_fee - packaging_cost - labor_cost_per_order
-    margin_pct = (net_profit / order_val) * 100 if order_val > 0 else 0
-    
-    with col2:
-        st.subheader("Order Breakdown")
-        st.write(f"**Commission Fee:** £{comm_fee:.2f}")
-        st.write(f"**Packaging Cost:** £{packaging_cost:.2f}")
-        st.write(f"**Packing Labor (4 mins):** £{labor_cost_per_order:.2f}")
-        st.markdown("---")
-        if net_profit > 1.0:
-            st.success(f"**Net Profit:** £{net_profit:.2f} ({margin_pct:.1f}% margin)")
-        elif net_profit > 0:
-            st.warning(f"**Net Profit:** £{net_profit:.2f} ({margin_pct:.1f}% margin) - Thin Margin!")
+    with tab1:
+        st.subheader("Data Inspector")
+        if selected_files:
+            chosen_file = st.selectbox("Choose a dataset to inspect:", selected_files)
+            if chosen_file in dataframes:
+                df_to_show = dataframes[chosen_file]
+                st.write(f"**Shape:** {df_to_show.shape[0]:,} rows × {df_to_show.shape[1]} columns")
+                st.dataframe(df_to_show.head(50), use_container_width=True)
         else:
-            st.error(f"**Net Profit:** £{net_profit:.2f} ({margin_pct:.1f}% margin) - UNPROFITABLE ORDER!")
+            st.info("Select datasets from the sidebar to preview them.")
 
-elif menu == "App v3.0 & Oat Milk Impact":
-    st.header("📉 Self-Inflicted Revenue Drag")
-    col1, col2 = st.columns(2)
-    with col1:
-        st.subheader("App v3.0 Failure")
-        st.metric("Daily Order Drop", "-23%", delta="-115 orders/day")
-        st.metric("Annual Revenue Lost", "~£240,000")
-        st.write("43% of app users stopped ordering post-update due to crashes & lost stamps.")
-    with col2:
-        st.subheader("Oat Milk Surcharge Impact")
-        st.metric("Oat Drink Share", "24%", delta="-7% after Jan surcharge")
-        st.write("53% of oat milk drinkers state they visit less frequently.")
+    with tab2:
+        st.subheader("Ask Gemini Across Your Selected Datasets")
+        st.markdown("Query P&L performance, footfall trends, weather impacts, labor costs, and waste leaks simultaneously.")
+        
+        col1, col2 = st.columns([1, 2])
+        with col1:
+            gemini_api_key = st.text_input("Gemini API Key:", type="password", help="Enter your Google AI Studio API key")
+        with col2:
+            user_query = st.text_input("Ask a business question:", placeholder="e.g., How does bad weather impact daily footfall and store revenue?")
 
-elif menu == "£1.5m Allocation Model":
-    st.header("💰 Recommended £1.5m Investment Strategy")
-    st.markdown("### Where the money should go (and what to STOP doing):")
-    
-    st.subheader("❌ WHAT TO STOP DOING")
-    st.write("1. **Stop Blind Store Expansion:** Pause Wellington Place (Leeds Trinity is already cannibalising Briggate by 19%).")
-    st.write("2. **Stop Subsidising Small Delivery Orders:** Implement a minimum basket size (£8) or small-order surcharge (£1.50).")
-    st.write("3. **Scrap the Oat Milk Charge:** Bring back lost customer footfall.")
-    
-    st.subheader("✅ £1.5M CAPITAL ALLOCATION")
-    alloc_df = pd.DataFrame({
-        "Category": ["Store Lease & Ops Fixes (Mcr/Hull)", "App Re-build & Tech Stability", "Delivery Surcharge Offset & Ops Tooling", "Working Capital Buffer"],
-        "Allocation (£)": [500000, 400000, 300000, 300000]
-    })
-    fig_pie = px.pie(alloc_df, values="Allocation (£)", names="Category", title="£1.5m Strategy Breakdown")
-    st.plotly_chart(fig_pie, use_container_width=True)
+        if user_query and gemini_api_key:
+            with st.spinner("Gemini is cross-analyzing your selected datasets..."):
+                try:
+                    client = genai.Client(api_key=gemini_api_key)
+                    
+                    # Build structured context summarizing the selected core files
+                    context_payload = "Here is summary data from the selected Grind & Crumb datasets:\n\n"
+                    for fname, df in dataframes.items():
+                        context_payload += f"=== FILE: {fname} (Columns: {list(df.columns)}) ===\n"
+                        context_payload += df.head(15).to_string() + "\n\n"
+                    
+                    system_prompt = f"""
+                    You are the lead executive data consultant for Grind & Crumb (£8.66m turnover across UK coffee shops). 
+                    You have access to the core operational and financial datasets selected by the user. Use them to provide precise, rigorous, and financially sound answers.
+                    
+                    {context_payload}
+                    """
+                    
+                    response = client.models.generate_content(
+                        model="gemini-2.5-flash",
+                        contents=f"{system_prompt}\n\nQuestion: {user_query}"
+                    )
+                    
+                    st.markdown("### 💡 Gemini Strategic Insight")
+                    st.write(response.text)
+                    
+                except Exception as e:
+                    st.error(f"API Error: {e}")
+                    
+        elif user_query and not gemini_api_key:
+            st.warning("⚠️ Please enter your Gemini API key above to execute queries.")
